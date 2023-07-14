@@ -1,0 +1,3 @@
+---
+title: Delgado Mina, Sobeida
+---

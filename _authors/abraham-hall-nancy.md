@@ -1,0 +1,3 @@
+---
+title: Abraham Hall, Nancy
+---
