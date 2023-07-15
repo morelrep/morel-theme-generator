@@ -1,6 +1,8 @@
-## Instrucciones para instalar el tema como rep
+# Instrucciones para instalar el tema como rep
 
-- forkea el repositorio. Es decir, crea una copia en tu cuenta github
+## Básico
+
+- forkea el repositorio. Es decir, crea una copia en tu cuenta [Github](github.com)
 - abre el terminal en el folder de tu computadora local donde trabajarás el sitio
 - $ git clone [rep] # clona el repositorio
 - $ cd morel-site-generator # te mueves a la carpeta del repositorio
@@ -8,6 +10,8 @@
   - borra la línea `theme: minima`
   - descomenta (borra `#`) de la línea `theme: morel-theme`
 - $ bundle install # instala el tema y sus dependencias
+
+## Personalizar
 
 Ahora tienes un sitio listo *con el contenido de sample, del sitio MOREL Afro Latin American Writers in Translation (ALAWiT)*. Puedes correrlo localmente para probar con `$ bundle exec jekyll serve`. Para llenarlo con tu propio contenido de Zotero y los datos de tu sitio, sigue los siguientes pasos:
 
@@ -24,4 +28,7 @@ Ahora tienes un sitio listo *con el contenido de sample, del sitio MOREL Afro La
 - $ source activate
 - $ cd ../src # muévete a la carpeta donde están los scripts de Python
 - $ python morel-generate # genera el contenido a partir de tu colección de Zotero
-- $ bundle exec jekyll serve --livereload # activa el servidor local para navegar tu sitio!
+- $ bundle exec jekyll serve --livereload # activa el servidor local para navegar tu sitio personalizado!
+
+## Para publicar (deploy)
+
