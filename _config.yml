@@ -8,6 +8,7 @@ github :
 twitter : 
 instagram:
 theme: morel-theme
+# remote-theme: morel-theme
 
 template : 
   name : MOREL
