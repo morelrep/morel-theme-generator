@@ -8,7 +8,7 @@ github :
 twitter : 
 instagram:
 # theme: morel-theme
-remote-theme: morel-theme
+remote-theme: febr3s/morel-theme
 
 template : 
   name : MOREL
