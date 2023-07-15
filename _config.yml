@@ -23,6 +23,7 @@ template :
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 permalink: /:categories/:year/:month/:day/:title:output_ext 
 
