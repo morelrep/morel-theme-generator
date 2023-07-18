@@ -7,9 +7,8 @@ email : proyectomorel@gmail.com
 github : 
 twitter : 
 instagram:
-theme: morel-theme
-# remote_theme: febr3s/morel-theme
-# theme: 
+# theme: morel-theme
+remote_theme: febr3s/morel-theme
 
 template : 
   name : MOREL

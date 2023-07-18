@@ -6,7 +6,10 @@
 - Abre el terminal de tu sistema en el folder de tu computadora local donde trabajarás el sitio (Mac y Linux tienen terminales nativos. Para Windows,tendrás que emplear el (WLS)[LINK])
 - Corre `$ git clone [REP]` para clonar el repositorio
 - Corre `$ cd morel-site-generator` para moverte a la carpeta del repositorio
-- Corre `$ bundle install` para instalar el tema y sus dependencias. Si no tienes Ruby en tu sistema, sigue las instrucciones de Jekyll[LINK]
+- Corre `$ bundle update` para actualizar el tema y sus dependencias. Si no tienes Ruby en tu sistema, sigue las instrucciones de Jekyll[LINK]
+- Abre el archivo `config.yml`y:
+  - Descomenta (borra el signo "#") de la línea `#theme: morel-theme`
+  - Comenta (añade el signo "#") a la línea `remote_theme: ferbr3s/morel-theme`
 - Corre `$ bundle exec jekyll serve` para correr el sitio de prueba
 
 ## Personalizar
