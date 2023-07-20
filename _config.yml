@@ -7,11 +7,13 @@ email : proyectomorel@gmail.com
 github : 
 twitter : 
 instagram:
-# theme: morel-theme
-remote_theme: febr3s/morel-theme
+theme: morel-theme
+#remote_theme: febr3s/morel-theme
 podcast: true
 
 # Do not edit bellow unless you are an advanced user
+
+BASE_PATH: #/reponame
 
 plugins:
   - jekyll-seo-tag
