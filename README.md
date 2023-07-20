@@ -1,6 +1,6 @@
 ## Instructions to install the theme
 
-## Basic
+## Basic {#install}
 
 - Fork the repository. That is, create a copy in your [Github](github.com) account.
 - Open your system's terminal in the folder on your local computer where you will be working on the site (Mac and Linux have native terminals. For Windows, you will have to use [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
@@ -12,7 +12,7 @@
   - Comment out (add the "#" sign) to the line `remote_theme: ferbr3s/morel-theme`.
 - Run `$ bundle exec jekyll serve` to run the test site.
 
-## Customize
+## Customize {#configure}
 
 Now you have on your local computer a ready-made site *with sample content, from the MOREL  site Afro Latin American Writers in Translation ([ALAWiT](https://alawit.org))*. You can run it locally to test with `$ bundle exec jekyll serve`. 
 
@@ -31,7 +31,7 @@ To fill it with your site's information, follow these steps:
 - Open the `podcast.md` file and change the title and tagline of your podcast or blog.
 - The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`.
 
-## Generating the content from Zotero
+## Generating the content from Zotero {#generate}
 
 - Run `$ jekyll build` to import to the `_sites` folder the updated content generators.
 - Run `$ unzip -d ./assets/ ./_site/assets/env.zip` to update the Python environment that generates the contents.
@@ -45,7 +45,7 @@ To fill it with your site's information, follow these steps:
 - Open the browser and go to the link provided by the local server (usually it's http://127.0.0.1:4000).
 - Browse your custom site!
 
-## To publish (deploy)
+## Deploy {#publish}
 
 - To publish to Github, follow their [instructions](https://docs.github.com/en/pages/quickstart) (ignore the "New repository" step as you are working with your MOREL fork).
 - To publish with a third party, follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/third-party/).
@@ -53,7 +53,9 @@ To fill it with your site's information, follow these steps:
 
 ## To install the theme as a local Ruby gem, or without code
 
-We are working on instructions and utilities to facilitate these possibilities. Subscribe to one of our channels to stay updated:
+We are working on instructions and utilities to facilitate these possibilities. 
+
+### Subscribe to one of our channels to stay updated {#suscribe}:
 
 - [Twitter](https://twitter.com/morelrep)
 - Email newsletter
