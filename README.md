@@ -7,14 +7,11 @@
 - Run `$ git clone http://febr3s.github.io/morel-site-generator` to clone the repository.
 - Run `$ cd morel-site-generator` to move to the repository folder
 - Run `$ bundle update` to update the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
-- Open the `config.yml` file:
-  - Uncomment (delete the "#" sign) from the `#theme: morel-theme` line.
-  - Comment out (add the "#" sign) to the line `remote_theme: ferbr3s/morel-theme`.
-- Run `$ bundle exec jekyll serve` to run the test site.
+- Run `$ bundle exec jekyll serve --config _config_local.yml` to run the test site.
 
 ## Customize {#configure}
 
-Now you have on your local computer a ready-made site *with sample content, from the MOREL  site Afro Latin American Writers in Translation ([ALAWiT](https://alawit.org))*. You can run it locally to test with `$ bundle exec jekyll serve`. 
+Now you have on your local computer a ready-made site *with sample content, from the MOREL  site Afro Latin American Writers in Translation ([ALAWiT](https://alawit.org))*. You can run it locally to test with `$ bundle exec jekyll serve --config _config_local.yml`. 
 
 To fill it with your site's information, follow these steps:
 
@@ -33,7 +30,7 @@ To fill it with your site's information, follow these steps:
 
 ## Generating the content from Zotero {#generate}
 
-- Run `$ jekyll build` to import to the `_sites` folder the updated content generators.
+- Run `$ jekyll build --config _config_local.yml` to import to the `_sites` folder the updated content generators.
 - Run `$ unzip -d ./assets/ ./_site/assets/env.zip` to update the Python environment that generates the contents.
 - Open Zotero and review the [guide](#zotero-fields) to make the fields 100 % readable for MOREL.
 - Export your Zotero collection as `csv`. If you don't know how to do it follow the instructions [here](https://www.zotero.org/support/kb/exporting). 
