@@ -8,7 +8,7 @@ github :
 twitter : 
 instagram:
 # theme: morel-theme
-remote_theme: febr3s/morel-theme
+remote_theme: febr3s/morel-theme@base-path
 podcast: true
 
 # If you want to build your site in a repo that is not named youruser.github.io (for example youruser.github.io/reponame), uncomment the following line
