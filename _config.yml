@@ -11,9 +11,10 @@ theme: morel-theme
 #remote_theme: febr3s/morel-theme
 podcast: true
 
-# Do not edit bellow unless you are an advanced user
-
+# If you want to build your site in a repo that is not named youruser.github.io (for example youruser.github.io/reponame), uncomment the following line
 BASE_PATH: #/reponame
+
+# Do not edit bellow unless you are an advanced user
 
 plugins:
   - jekyll-seo-tag
