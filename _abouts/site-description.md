@@ -85,7 +85,7 @@ To fill it with your site's information, follow these steps:
 
 We are working on instructions and utilities to facilitate these possibilities. 
 
-### Subscribe to one of our channels to stay updated {#suscribe}:
+### Subscribe to one of our channels to stay updated:
 
 - [Twitter](https://twitter.com/morelrep)
 - [Facebook](https://www.facebook.com/morelrep)
