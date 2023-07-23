@@ -1,16 +1,21 @@
 # Future features
 
-# Enhancements
-- No-image option
-- Link on metadata conditional to have more than one item
-- revisar cómo es lo de los distintos favicons por plataforma, como se generan en favicon.io
-- encontrar una forma más eficaz de trabajar el local y el remoto sin tanto peo. Por ahora se me ocurren varias soluciones:
-  - averiguar si jekyll_remote funciona en local en otros sistemas
-- 
+## Bugs
 
-# New features
-- Torrent download option
-- Hacer condicional el que se cargue la portada 
+- Local configuration:
+  - Averiguar si jekyll_remote funciona en local en otros sistemas
+
+## Enhancements
+
+- CSS
+  - Rendear el site.title automáticamente
+  - Mejorar el rendering del elemento `code`
+  - Style the `em` element
+- Layout
+  - Link on metadata conditional to have more than one item
+  - revisar cómo es lo de los distintos favicons por plataforma, como se generan en favicon.io
+  - No-image option
+  - Torrent download option
 
 # Docs
 - * [Migrate](https://import.jekyllrb.com/docs/home/) from your previous system

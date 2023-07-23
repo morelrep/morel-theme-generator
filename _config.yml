@@ -1,7 +1,7 @@
 title: MOREL # Write here the name of your site
 tagline: Mobile Open Resilient Electronic Libraries # Write here the description of your site
 img: logo.png # Substitute the file with a copy of your site's logo on /assets/img/tema
-background: trama.png # Substitute the file with a copy of your site's pattern on /assets/img/tema
+background: pattern.png # Substitute the file with a copy of your site's pattern on /assets/img/tema
 image : avatar.png
 email : proyectomorel@gmail.com
 github : 
