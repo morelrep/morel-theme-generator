@@ -7,7 +7,7 @@
 - Run `$ git clone http://febr3s.github.io/morel-site-generator` to clone the repository.
 - Run `$ cd morel-site-generator` to move to the repository folder
 - Run `$ bundle update` to update the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
-- Run `ruby dev.rb`(alternatively, delete `febr3s.github.io/morel-theme-generator` from the `remote_theme` line:)
+- Run `ruby dev.rb`(alternatively, delete `febr3s.github.io/morel-theme-generator` from the `remote_theme:` line in `_config.yml`)
 - Run `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload` to run the test site.
 
 ## Customize {#configure}
