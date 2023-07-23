@@ -9,5 +9,5 @@ def modify_document(file_path)
  end
  
  # Usage: Call the method with the path of your document file
- modify_document("_data.yml")
+ modify_document("_config.yml")
  

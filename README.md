@@ -7,11 +7,12 @@
 - Run `$ git clone http://febr3s.github.io/morel-site-generator` to clone the repository.
 - Run `$ cd morel-site-generator` to move to the repository folder
 - Run `$ bundle update` to update the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
-- Run `$ bundle exec jekyll serve --config _config_local.yml` to run the test site.
+- Run `ruby dev.rb`(alternatively, delete `febr3s.github.io/morel-theme-generator` from the `remote_theme` line:)
+- Run `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload` to run the test site.
 
 ## Customize {#configure}
 
-Now you have on your local computer a ready-made site *with sample content, from the MOREL  site Afro Latin American Writers in Translation ([ALAWiT](https://alawit.org))*. You can run it locally to test with `$ bundle exec jekyll serve --config _config_local.yml`. 
+Now you have on your local computer a ready-made site *with sample content, from the MOREL  site Afro Latin American Writers in Translation ([ALAWiT](https://alawit.org))*. You can run it locally to test with `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`. 
 
 To fill it with your site's information, follow these steps:
 
@@ -38,12 +39,12 @@ To fill it with your site's information, follow these steps:
 - Run `$ cd assets/env/bin` to go to the folder where the Python environment is activated. Activate it with `$ source activate`.
 - Run `$ cd ../src` to move to the folder where the Python scripts are located.
 - Run `$ python morel-generate` to generate the content from your Zotero collection.
-- Run `$ bundle exec jekyll serve --livereload` to activate the local server for browsing.
+- Run `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload` to activate the local server for browsing.
 - Open the browser and go to the link provided by the local server (usually it's http://127.0.0.1:4000).
 - Browse your custom site!
 
 ## Deploy {#publish}
-
+- Run `$ ruby prod.rb`(alternatively, add `febr3s.github.io/morel-theme-generator` to the `remote_theme` line:)
 - To publish to Github, follow their [instructions](https://docs.github.com/en/pages/quickstart) (ignore the "New repository" step as you are working with your MOREL fork).
 - To publish with a third party, follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/third-party/).
 - To publish to your personal server follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/manual/).
