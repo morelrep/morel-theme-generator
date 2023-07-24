@@ -7,7 +7,7 @@ email : proyectomorel@gmail.com
 github : 
 twitter : 
 instagram:
-remote_theme: morelrep/morel-theme
+remote_theme: morelrep/morel-theme@2-favicon
 podcast: true
 
 # If you want to build your site in a repo that is not named youruser.github.io (for example youruser.github.io/reponame), uncomment the following line
