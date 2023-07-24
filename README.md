@@ -3,7 +3,7 @@
 [![Gem Version](https://img.shields.io/gem/v/morel-theme)][ruby-gems]
 [![Licence](https://img.shields.io/badge/License-GPLv3-blue.svg)][licence]
 
-[licence]: 
+[licence]: https://github.com/morelrep/morel-theme-generator/blob/1-finish-documentation/LICENCE
 [ruby-gems]: https://rubygems.org/gems/jekyll
 
 MOREL is a simple, blog-aware, static site generator to create Mobile, Open, Resilient, Electronic Libraries. MOREL takes simple bibliographic collections, runs them through the [Jekyll site generator](https://jekyllrb.com/), and creates a static website ready to be served for free by Github pages. MOREL sites can also be published through freemium deployment services such as Netlify, and through commercial or institutional servers. MOREL is perfect to create personal, project, or organization niche archives, using third party storage on services such as Archive.org.
@@ -31,10 +31,10 @@ And they are *resilient* because of their decentralized nature. On the one hand,
 
 ## Diving In
 
-* [Spread] the word, by sharing our  [Hola, World! post]({{ site.BASE_PATH }}/2023/07/20/hola-world.html)
+* Spread the word, by sharing our  [Hola, World! post](https://github.com/morelrep/morel-theme-generator/2023/07/20/hola-world.html)
 * [Subscribe] to the [Telegram channel](https://t.me/morelrep), and/or follow us in [Twitter](https://twitter.com/morelrep) and [Facebook](https://facebook.com/morelrep)
-* [Contribute]({{ site.BASE_PATH }}/contribute)
+* [Contribute](https://github.com/morelrep/morel-theme-generator/contribute)
 
 ## License
 
-See the [LICENSE]() file.
+See the [LICENSE](https://github.com/morelrep/morel-theme-generator/blob/1-finish-documentation/LICENCE) file.
