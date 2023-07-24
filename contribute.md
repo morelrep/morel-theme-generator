@@ -24,12 +24,14 @@ Sería ideal conseguir una solución que no requiera de la ejecución de estos s
 
 ## Enhancements
 
-- CSS
+### CSS changes
   - Rendear el site.title automáticamente
   - Mejorar el rendering del elemento `code`
   - Style the `em` element
-- Layout
-  - Link on metadata conditional to have more than one item
+
+
+### Layout folder changes
+  - Link condicional a tener más de un elemento: Actualmente todos los elementos de la metadata (autor(es), editorial, ciudad, repositorio) generan un link, que contiene la lista de obras con el mismo elemento en ellas. El link actualmente se activa siempre. Habría que hacer un cambio para que se active únicamente si hay más de un elemento en ellas.
   - revisar cómo es lo de los distintos favicons por plataforma, como se generan en favicon.io
   - No-image option
   - Torrent download option
