@@ -32,7 +32,7 @@ And they are *resilient* because of their decentralized nature. On the one hand,
 ## Diving In
 
 * Spread the word, by sharing our  [Hola, World! post](https://github.com/morelrep/morel-theme-generator/2023/07/20/hola-world.html)
-* [Subscribe] to the [Telegram channel](https://t.me/morelrep), and/or follow us in [Twitter](https://twitter.com/morelrep) and [Facebook](https://facebook.com/morelrep)
+* Subscribe to the [Telegram channel](https://t.me/morelrep), and/or follow us in [Twitter](https://twitter.com/morelrep) and [Facebook](https://facebook.com/morelrep)
 * [Contribute](https://github.com/morelrep/morel-theme-generator/contribute)
 
 ## License
