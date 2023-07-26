@@ -22,11 +22,11 @@ And they are *resilient* because of their decentralized nature. On the one hand,
 * Take a look at the MOREL sites that are already in production:
   * [Afro Latin American Writers in Translation](https://alawit.org).
   * [Metadatos de Obras para Repositorios Electrónicos Latinoamericanos](https://morel.la).
-* [Fork and clone](https://morelrep.github.io/morel-site-generator/about/#install) the MOREL site generator and run it locally.
-* [Configure](https://morelrep.github.io/morel-site-generator/about/#configure) it with your archive's identity.
-* [Generate](https://morelrep.github.io/morel-site-generator/about/#generate) the content from your Zotero Library.
-* [Publish](https://morelrep.github.io/morel-site-generator/about/#publish) your site!
-* Have questions, sugestions or contributions in mind? Reach out to us via [Twitter](https://twitter.com/morelrep) and [Facebook](https://facebook.com/morelrep), or [open an issue](https://github.com/febr3s/morel-site-generator/issues) on this rep
+* [Fork and clone](https://morelrep.github.io/morel-theme-generator/about#install) the MOREL site generator and run it locally.
+* [Configure](https://morelrep.github.io/morel-theme-generator/about#configure) it with your archive's identity.
+* [Generate](https://morelrep.github.io/morel-theme-generator/about#generate) the content from your Zotero Library.
+* [Publish](https://morelrep.github.io/morel-theme-generator/about#publish) your site!
+* Have questions, sugestions or contributions in mind? Reach out to us via [Twitter](https://twitter.com/morelrep) and [Facebook](https://facebook.com/morelrep), or [open an issue](https://github.com/morelrep/morel-site-generator/issues) on this rep.
 
 
 
