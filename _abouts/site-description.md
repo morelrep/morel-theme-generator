@@ -2,7 +2,7 @@
 title: description
 lang: en
 ---
-MOREL generates web sites from bibliographic collections. The MOREL sites gather book covers, excerpts, bibliographic clues, metadata and digital downloads from works stored in the Zotero reference manager.
+MOREL generates web sites from bibliographic collections. The MOREL sites gather book covers, excerpts, bibliographic clues, metadata and digital downloads from items stored in the Zotero reference manager.
 
 <!-- more -->
 
@@ -62,8 +62,8 @@ To fill it with your site's information, follow these steps:
 
 ## Generate Content from Zotero {#generate}
 
-- Run `$ jekyll build --config _config_local.yml` to import to the `_sites` folder the updated content generators.
 - Run `$ unzip -d ./assets/ ./_site/assets/env.zip` to update the Python environment that generates the contents.
+- Add the line `assets/env` to the `.gitignore` file if it is not there yet.
 - Open Zotero and review the [guide](#zotero-fields) to make the fields 100 % readable for MOREL.
 - Export your Zotero collection as `csv`. If you don't know how to do it follow the instructions [here](https://www.zotero.org/support/kb/exporting). 
 - Name your `csv` file as `books_zotero.csv`. Replace the file with the same name found in the `assets/data` folder.
@@ -104,8 +104,8 @@ MOREL items are added in the same way that items are added in any [Zotero librar
 If you aren't using MOREL yet, go to the [installation instructions](#install) above. If you installed MOREL already, these are your last steps to have it ready to run:
 
 - Delete the file `_abouts/site-description.md`
-- Duplicate `site-description_template`, and rename it as `site-description.md`. The template has the current description for one of the sites built with MOREL: Afro-Latin American Writers in Translation (ALAWiT). Edit to your site's needs. But note that there are dynamic fields, such as `{{``site.title``}}` and `{{``site.books.size``}}`. We recommend you to keep them in your edition, so your site description is automatically updated as your collection grows.
+- Duplicate `site-description_template`, and rename it as `site-description.md`. The template has the current description for one of the sites built with MOREL: Afro-Latin American Writers in Translation (ALAWiT). Edit to your site's needs. But note that there are dynamic fields, such as `site.title` and `site.books.size`. We recommend you to keep them in your edition, so your site description is automatically updated as your collection grows.
 - Run `ruby dev.rb` to deactivate the remote theme.
-- Run `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`.
+- Run `$ bundle exec jekyll build --config _config.yml,_config_local.yml --livereload`.
 - Move the file `_site/abouts/site-description.html` to `_includes`.
 - Remeber to run `ruby prod.rb` if you are going to deploy your changes to your production GitHub site.
