@@ -42,3 +42,16 @@ Sería ideal conseguir una solución que no requiera de la ejecución de estos s
 # Project
 - Tener presente estos asuntos legales alrededor del logo, etc: https://www.zettlr.com/press#usage-rights
 - Fijar versión máxima y mínima de MOREL en gemfile
+
+<!--
+
+Unclassified:
+
+- Banderitas de nacionalidad
+- Página de libros por traductor
+- Integración con:
+	- Wikipedia
+	- HathiTrust
+- Agregar en el script de generación: borrar los archivos de página no utilizados
+
+-->

@@ -52,12 +52,11 @@ To fill it with your site's information, follow these steps:
   - The `title` to your site's.
   - The `tagline` to your site's.
   - The `email` and/or social media accounts to your site's.
-  - The `description` to your site's.
   - The `jotform` link (create your free account at [Jotform](https://www.jotform.com/)).
-- Replace the logo, pattern and avatar files by substituting these files:
-  - `assets/img/img/theme/logo.png`
-  - `assets/img/img/theme/avatar.jpg`
-  - `assets/img/img/theme/pattern.png`
+- Replace the logo, pattern and avatar files by adding these files:
+  - `assets/img/theme/logo.png`
+  - `assets/img/theme/avatar.jpg`
+  - `assets/img/theme/pattern.png`
 - Open the `podcast.md` file and change the title and tagline of your podcast or blog.
 - The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`.
 
@@ -105,8 +104,8 @@ MOREL items are added in the same way that items are added in any [Zotero librar
 If you aren't using MOREL yet, go to the [installation instructions](#install) above. If you installed MOREL already, these are your last steps to have it ready to run:
 
 - Delete the file `_abouts/site-description.md`
-- Duplicate `site-description_template`, and rename it as `site-description.md`. The template has the current description for one of the sites built with MOREL: Afro-Latin American Writers in Translation (ALAWiT). Edit to your site's needs. But note that there are dynamic fields, such as `{{ site.title }}` and `{{ site.books.size }}`. We recommend you to keep them in your edition, so your site description is automatically updated as your collection grows.
+- Duplicate `site-description_template`, and rename it as `site-description.md`. The template has the current description for one of the sites built with MOREL: Afro-Latin American Writers in Translation (ALAWiT). Edit to your site's needs. But note that there are dynamic fields, such as `{{``site.title``}}` and `{{``site.books.size``}}`. We recommend you to keep them in your edition, so your site description is automatically updated as your collection grows.
 - Run `ruby dev.rb` to deactivate the remote theme.
 - Run `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`.
 - Move the file `_site/abouts/site-description.html` to `_includes`.
-- Remeber to run `ruby prod.rb` if you are going to update your changes to your production GitHub site.
+- Remeber to run `ruby prod.rb` if you are going to deploy your changes to your production GitHub site.
