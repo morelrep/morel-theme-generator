@@ -4,7 +4,7 @@
 
 - Fork the repository. That is, create a copy in your [Github](github.com) account.
 - Open your system's terminal in the folder on your local computer where you will be working on the site (Mac and Linux have native terminals. For Windows, you will have to use [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
-- Run `$ git clone http://febr3s.github.io/morel-site-generator` to clone the repository.
+- Run `$ git clone http://github.com/[your_username]/morel-site-generator` to clone the repository.
 - Run `$ cd morel-site-generator` to move to the repository folder
 - Run `$ bundle update` to update the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
 - Run `ruby dev.rb`(alternatively, delete `febr3s.github.io/morel-theme-generator` from the `remote_theme:` line in `_config.yml`)
@@ -20,14 +20,15 @@ To fill it with your site's information, follow these steps:
   - The `title` to your site's.
   - The `tagline` to your site's.
   - The `email` and/or social media accounts to your site's.
-  - The `description` to your site's.
   - The `jotform` link (create your free account at https://www.jotform.com/).
-- Replace the logo, raster and avatar files by adding a file to:
-  - `assets/img/img/theme/logo.png`
-  - `assets/img/img/theme/avatar.jpg`
-  - `assets/img/img/theme/plot.png`
+- Open the file `_about/site-description.md` and write a description for your site. The `<!-- more -->` line splits what is shown on the footer of all your pages from what is shown both in the footer and only on the `about` page. For this to work you have to complete the final step of this section
+- Replace the logo, pattern and avatar files by adding a file to:
+  - `assets/img/tema/logo.png`
+  - `assets/img/tema/avatar.jpg`
+  - `assets/img/tema/trama.png`
 - Open the `podcast.md` file and change the title and tagline of your podcast or blog.
-- The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`.
+- The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`
+- Open the `_site` folder and copy the file `site-description.html`to the `_layouts`folder
 
 ## Generating the content from Zotero {#generate}
 
