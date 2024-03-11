@@ -3,7 +3,7 @@
 ## Basic {#install}
 
 - Fork the repository. That is, create a copy in your [Github](github.com) account.
-- Open your system's terminal in the folder on your local computer where you will be working on the site (Mac and Linux have native terminals. For Windows, you will have to use [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
+- Open your system's terminal in the folder on your local computer where you will be working on the site. Mac and Linux have native terminals. For Windows, you will have to use [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
 - Run `$ git clone http://febr3s.github.io/morel-site-generator` to clone the repository.
 - Run `$ cd morel-site-generator` to move to the repository folder
 - Run `$ bundle update` to update the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
