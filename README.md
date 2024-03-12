@@ -29,7 +29,7 @@ To fill it with your site's information, follow these steps:
 - Open the `podcast.md` file and change the title and tagline of your podcast or blog.
 - The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`
 - Run the site locally with `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`
-- Open the `_site` folder and copy the file `site-description.html`to the `_layouts`folder
+- Open the `_site` folder and copy the file `site-description.html`to the `_includes`folder
 
 ## Generating the content from Zotero {#generate}
 
