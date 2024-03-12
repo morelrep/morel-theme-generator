@@ -35,12 +35,12 @@ To fill it with your site's information, follow these steps:
 
 - Run `$ jekyll build --config _config_local.yml` to import to the `_sites` folder the updated content generators.
 - Run `$ unzip -d ./assets/ ./_site/assets/env.zip` to update the Python environment that generates the contents.
-- Open [Zotero](https://www.zotero.org/) and review the [guide](#zotero-fields) to make the fields 100 % readable for MOREL.
+- Open [Zotero](https://www.zotero.org/) and review the [guide](#zotero-fields) at the end of this instructions to make the fields 100 % readable for MOREL.
 - Export your Zotero collection as `csv`. If you don't know how to do it follow the instructions [here](https://www.zotero.org/support/kb/exporting). 
 - Name your `csv` file as `books_zotero.csv`. Replace the file of the same name found in the `assets/data` folder.
 - Run `$ cd assets/env/bin` to go to the folder where the Python environment is activated. Activate it with `$ source activate`.
 - Run `$ cd ../src` to move to the folder where the Python scripts are located.
-- Run `$ python morel-generate` to generate the content from your Zotero collection.
+- Run `$ python3 morel-generate.py` to generate the content from your Zotero collection. In some operating systems, the command might vary. Check the Python documentation for guidance
 - Run `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload` to activate the local server for browsing.
 - Open the browser and go to the link provided by the local server (usually it's http://127.0.0.1:4000).
 - Browse your custom site!
