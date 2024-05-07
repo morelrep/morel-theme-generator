@@ -21,7 +21,7 @@ To fill it with your site's information, follow these steps:
   - The `tagline` to your site's.
   - The `email` and/or social media accounts to your site's.
   - The `jotform` link (create your free account at https://www.jotform.com/).
-- Open the file `_about/site-description.md` and write a description for your site. The `<!-- more -->` line splits what is shown on the footer of all your pages from what is shown both in the footer and only on the `about` page. For this to work you have to complete the final step of this section
+- Open the file `_abouts/site-description.md` and write a description for your site. The `<!-- more -->` line splits what is shown on the footer of all your pages from what is shown both in the footer and only on the `about` page. For this to work you have to complete the final step of this section
 - Replace the logo, pattern and avatar files by adding a file to:
   - `assets/img/tema/logo.png`
   - `assets/img/tema/avatar.jpg`
