@@ -48,7 +48,7 @@ To fill it with your site's information, follow these steps:
 - Browse your custom site!
 
 ## Deploy {#publish}
-- Run `$ ruby prod.rb`(alternatively, add `febr3s.github.io/morel-theme-generator` to the `remote_theme` line:)
+- Run `$ ruby prod.rb`(alternatively, add `febr3s.github.io/morel-theme` to the `remote_theme` line:)
 - To publish to Github, follow their [instructions](https://docs.github.com/en/pages/quickstart) (ignore the "New repository" step as you are working with your MOREL fork).
 - To publish with a third party, follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/third-party/).
 - To publish to your personal server follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/manual/).
