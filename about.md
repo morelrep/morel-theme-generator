@@ -1,4 +1,4 @@
 ---
 layout: about
-title: ALAWiT
+title: MOREL
 ---
