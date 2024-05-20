@@ -8,7 +8,7 @@ jotform: # Create an account in https://www.jotform.com/ if you don't have one, 
 github : # Add your Github account
 twitter :  # Add your X account
 instagram: # Add your Instagram account
-remote_theme: 
+remote_theme: febr3s/morel-theme@base-path
 podcast: true
 
 # If you want to build your site in a repo that is not named youruser.github.io (for example youruser.github.io/reponame), uncomment the following line
