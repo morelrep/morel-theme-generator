@@ -1,12 +1,13 @@
 title: MOREL # Write here the name of your site
 tagline: Mobile Open Resilient Electronic Libraries # Write here the description of your site
 img: logo.png # Substitute the file with a copy of your site's logo on /assets/img/tema
-background: trama.png # Substitute the file with a copy of your site's pattern on /assets/img/tema
+background: pattern.png # Substitute the file with a copy of your site's pattern on /assets/img/tema
 image : avatar.png
-email : proyectomorel@gmail.com
-github : 
-twitter : 
-instagram:
+email : proyectomorel@gmail.com # Add an email to your project
+jotform: # Create an account in https://www.jotform.com/ if you don't have one, create a form for colaborators, and paste the link here
+github : # Add your Github account
+twitter :  # Add your X account
+instagram: # Add your Instagram account
 remote_theme: 
 podcast: true
 
