@@ -1,15 +1,15 @@
 title: MOREL # Write here the name of your site
-tagline: Mobile Open Resilient Electronic Libraries # Write here the description of your site
-img: logo.png # Substitute the file with a copy of your site's logo on /assets/img/tema
-background: pattern.png # Substitute the file with a copy of your site's pattern on /assets/img/tema
-image : avatar.png
-email : proyectomorel@gmail.com # Add an email to your project
-jotform: # Create an account in https://www.jotform.com/ if you don't have one, create a form for colaborators, and paste the link here
-github : # Add your Github account
-twitter :  # Add your X account
-instagram: # Add your Instagram account
-remote_theme: febr3s/morel-theme@base-path
+tagline: Mobile Open Resilient Electronic Libraries # Write here the tagline of your site
+img: logo.png # Add a file with a copy of your site's logo on /assets/img/tema
+background: pattern.png # Add a file with a copy of your site's pattern on /assets/img/tema
+image : avatar.png  # Add a file with a copy of your site's avatar on /assets/img/tema
+email : proyectomorel@gmail.com
+github : 
+twitter : 
+instagram:
+remote_theme: morelrep/morel-theme
 podcast: true
+jotform:
 
 # If you want to build your site in a repo that is not named youruser.github.io (for example youruser.github.io/reponame), uncomment the following line
 BASE_PATH: /morel-theme-generator

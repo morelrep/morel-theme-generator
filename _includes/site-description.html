@@ -6,10 +6,10 @@
 
 <ul>
   <li><a href="/criteria/author">authors</a></li>
-  <li><a href="/criteria/city">city of publication</a></li>
-  <li><a href="/criteria/publisher">imprint or publisher</a></li>
-  <li><a href="/criteria/nationality">nationality of authors</a></li>
-  <li><a href="/criteria/edition">edition date</a></li>
+  <li><a href="/chriteria/city">city of publication</a></li>
+  <li><a href="/chriteria/publisher">imprint or publisher</a></li>
+  <li><a href="/chriteria/nationality">nationality of authors</a></li>
+  <li><a href="/chriteria/edition">edition date</a></li>
   <li><a href="/criteria/repository">digital repository</a>.</li>
 </ul>
 
@@ -38,83 +38,101 @@
   </li>
 </ul>
 
-<h2 id="installation-steps">Installation Steps</h2>
+<h2 id="install">Install the Theme</h2>
 
-<ol>
-  <li>
-    <p><strong>Download the Web Site Generator</strong></p>
+<ul>
+  <li>Fork the repository. That is, create a copy in your <a href="https://github.com">Github</a> account.</li>
+  <li>Open your system’s terminal in the folder on your local computer where you will be working on the site (Mac and Linux have native terminals. For Windows, you will have to use <a href="https://learn.microsoft.com/en-us/windows/wsl/install">WLS</a>).</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ git clone http://morelrep.github.io/morel-site-generator</code> to clone the repository.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ cd morel-site-generator</code> to move to the repository folder</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ bundle update</code> to update the theme and its dependencies. If you don’t have Ruby on your system, follow the instructions in <a href="https://jekyllrb.com/docs/ruby-101/">Jekyll</a></li>
+  <li>Run <code class="language-plaintext highlighter-rouge">ruby dev.rb</code> (alternatively, delete <code class="language-plaintext highlighter-rouge">morelrep.github.io/morel-theme</code> from the <code class="language-plaintext highlighter-rouge">remote_theme:</code> line in <code class="language-plaintext highlighter-rouge">_config.yml</code>)</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload</code> to run the test site.</li>
+</ul>
 
+<h2 id="configure">Customize the Site</h2>
+
+<p>Now you have on your local computer a ready-made site <em>with sample content, from the MOREL  site Afro Latin American Writers in Translation (<a href="https://alawit.org">ALAWiT</a>)</em>. You can run it locally to test with <code class="language-plaintext highlighter-rouge">$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload</code>.</p>
+
+<p>To fill it with your site’s information, follow these steps:</p>
+
+<ul>
+  <li>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> in your text editor and change:
     <ul>
-      <li>Visit the GitHub repository for the web site generator at <a href="https://github.com/example/repository">https://github.com/example/repository</a>.</li>
-      <li>Click on the “Download” button or clone the repository using the following command:
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/example/repository.git
-</code></pre></div>        </div>
-      </li>
+      <li>The <code class="language-plaintext highlighter-rouge">title</code> to your site’s.</li>
+      <li>The <code class="language-plaintext highlighter-rouge">tagline</code> to your site’s.</li>
+      <li>The <code class="language-plaintext highlighter-rouge">email</code> and/or social media accounts to your site’s.</li>
+      <li>The <code class="language-plaintext highlighter-rouge">description</code> to your site’s.</li>
+      <li>The <code class="language-plaintext highlighter-rouge">jotform</code> link (create your free account at <a href="https://www.jotform.com/">Jotform</a>).</li>
     </ul>
   </li>
-  <li>
-    <p><strong>Configure Jekyll</strong></p>
-
+  <li>Replace the logo, pattern and avatar files by substituting these files:
     <ul>
-      <li>Open a terminal and navigate to the downloaded repository’s directory:
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> /path/to/repository
-</code></pre></div>        </div>
-      </li>
-      <li>Install the necessary dependencies by running:
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
-</code></pre></div>        </div>
-      </li>
-      <li>Customize the Jekyll configuration file (<code class="language-plaintext highlighter-rouge">_config.yml</code>) to match your preferences and set up necessary plugins or themes.</li>
+      <li><code class="language-plaintext highlighter-rouge">assets/img/img/theme/logo.png</code></li>
+      <li><code class="language-plaintext highlighter-rouge">assets/img/img/theme/avatar.jpg</code></li>
+      <li><code class="language-plaintext highlighter-rouge">assets/img/img/theme/pattern.png</code></li>
     </ul>
   </li>
-  <li>
-    <p><strong>Run Python Scripts</strong></p>
+  <li>Open the <code class="language-plaintext highlighter-rouge">podcast.md</code> file and change the title and tagline of your podcast or blog.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">_posts</code> folder has the MOREL posts. Delete the MOREL posts and create your own with <a href="https://jekyllrb.com/docs/posts/">Jekyll nomenclature</a>. If you don’t want to add any podcast posts or episodes to your site, change in <code class="language-plaintext highlighter-rouge">_config.yml</code> the <code class="language-plaintext highlighter-rouge">podcast</code> value to <code class="language-plaintext highlighter-rouge">false</code>.</li>
+</ul>
 
-    <ul>
-      <li>Ensure that you have Python installed and accessible from the command line.</li>
-      <li>Navigate to the <code class="language-plaintext highlighter-rouge">scripts</code> directory within the downloaded repository:
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> /path/to/repository/scripts
-</code></pre></div>        </div>
-      </li>
-      <li>Execute the Python script(s) provided in the repository to extract data from your Zotero collections. For example:
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python extract_data.py
-</code></pre></div>        </div>
-      </li>
-      <li>Follow any prompts or instructions provided by the script(s).</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Generate the Website</strong></p>
+<h2 id="generate">Generate Content from Zotero</h2>
 
-    <ul>
-      <li>Return to the main directory of the downloaded repository:
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> /path/to/repository
-</code></pre></div>        </div>
-      </li>
-      <li>Build the website using Jekyll by running the following command:
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll build
-</code></pre></div>        </div>
-      </li>
-      <li>Once the build process completes, the generated website will be available in the <code class="language-plaintext highlighter-rouge">_site</code> directory.</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Deployment</strong></p>
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ jekyll build --config _config_local.yml</code> to import to the <code class="language-plaintext highlighter-rouge">_sites</code> folder the updated content generators.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ unzip -d ./assets/ ./_site/assets/env.zip</code> to update the Python environment that generates the contents.</li>
+  <li>Open Zotero and review the <a href="#zotero-fields">guide</a> to make the fields 100 % readable for MOREL.</li>
+  <li>Export your Zotero collection as <code class="language-plaintext highlighter-rouge">csv</code>. If you don’t know how to do it follow the instructions <a href="https://www.zotero.org/support/kb/exporting">here</a>.</li>
+  <li>Name your <code class="language-plaintext highlighter-rouge">csv</code> file as <code class="language-plaintext highlighter-rouge">books_zotero.csv</code>. Replace the file with the same name found in the <code class="language-plaintext highlighter-rouge">assets/data</code> folder.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ cd assets/env/bin</code> to go to the folder where the Python environment is activated. Activate it with <code class="language-plaintext highlighter-rouge">$ source activate</code>.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ cd ../src</code> to move to the folder where the Python scripts are located.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ python morel-generate</code> to generate the content from your Zotero collection.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload</code> to activate the local server for browsing.</li>
+  <li>Open the browser and go to the link provided by the local server (usually it’s http://127.0.0.1:4000).</li>
+  <li>Browse your custom site!</li>
+</ul>
 
-    <ul>
-      <li>Deploy the generated website to your desired web server or hosting platform by following their respective instructions.</li>
-    </ul>
-  </li>
-</ol>
+<h2 id="publish">Deploy</h2>
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ ruby prod.rb</code> (alternatively, add <code class="language-plaintext highlighter-rouge">morelrep.github.io/morel-theme-generator</code> to the <code class="language-plaintext highlighter-rouge">remote_theme</code> line:)</li>
+  <li>To publish to Github, follow their <a href="https://docs.github.com/en/pages/quickstart">instructions</a> (ignore the “New repository” step as you are working with your MOREL fork).</li>
+  <li>To publish with a third party, follow Jekyll’s <a href="https://jekyllrb.com/docs/deployment/third-party/">instructions</a>.</li>
+  <li>To publish to your personal server follow Jekyll’s <a href="https://jekyllrb.com/docs/deployment/manual/">instructions</a>.</li>
+</ul>
+
+<h2 id="to-install-the-theme-as-a-local-ruby-gem-or-without-code">To install the theme as a local Ruby gem, or without code</h2>
+
+<p>We are working on instructions and utilities to facilitate these possibilities.</p>
+
+<h3 id="subscribe-to-one-of-our-channels-to-stay-updated">Subscribe to one of our channels to stay updated:</h3>
+
+<ul>
+  <li><a href="https://twitter.com/morelrep">Twitter</a></li>
+  <li><a href="https://www.facebook.com/morelrep">Facebook</a></li>
+  <li><a href="t.me/morelrep">Telegram</a></li>
+</ul>
+
+<h2 id="zotero-fields">Zotero fields</h2>
+
+<p>MOREL items are added in the same way that items are added in any <a href="https://www.zotero.org/support/adding_items_to_zotero">Zotero library</a>. In its current version, MOREL can only process items of type <code class="language-plaintext highlighter-rouge">book</code>. Since not all the fields needed for MOREL are available for the <code class="language-plaintext highlighter-rouge">book</code> content type, some considerations must be made:</p>
+
+<ul>
+  <li>Excerpt: the fragment from each MOREL record corresponds to the <code class="language-plaintext highlighter-rouge">notes</code> of Zotero (see the <a href="https://www.zotero.org/support/notes">documentation about the notes</a> by Zotero). In its current version, MOREL <em>only accepts one excerpt per book</em>.</li>
+  <li>Cover: the cover is a jpg file that is added as an <code class="language-plaintext highlighter-rouge">attachment</code> to the Zotero item (see the Zotero attachments <a href="https://www.zotero.org/support/attaching_files">documentation</a>).</li>
+  <li>Translation or original: in order to filter translated books from originals, MOREL uses Zotero’s <code class="language-plaintext highlighter-rouge">Series</code> field to indicate whether it is a translation with the <code class="language-plaintext highlighter-rouge">tr</code> sign.</li>
+  <li>First edition: MOREL uses the <code class="language-plaintext highlighter-rouge">Date</code> field for the date of publication of the book and the <code class="language-plaintext highlighter-rouge">Edition</code> field for the date of first edition.</li>
+</ul>
 
 <h2 id="about-page-for-your-site">“About” page for your site</h2>
 
-<p>If you aren’t using MOREL yet, go to the <a href="#install">installation instructions</a> bellow. If you installed MOREL already, these are your last steps to have it ready to run:</p>
+<p>If you aren’t using MOREL yet, go to the <a href="#install">installation instructions</a> above. If you installed MOREL already, these are your last steps to have it ready to run:</p>
 
 <ul>
   <li>Delete the file <code class="language-plaintext highlighter-rouge">_abouts/site-description.md</code></li>
-  <li>Edit <code class="language-plaintext highlighter-rouge">site-description_template</code>. Note that <code class="language-plaintext highlighter-rouge">site-description-template.md</code> has the current description for one of the sites built with MOREL: Afro-Latin American Writers in Translation (ALAWiT). Edit to your site’s needs. But that there are dynamic fields, such as “MOREL” and “90”. We recommend you to keep them in your edition, so your site description is automatically updated as your collection grows.</li>
-  <li>Rename the file to <code class="language-plaintext highlighter-rouge">site description.md</code></li>
-  <li>Run Jekyll build if you are using a local server, or wait for Github to deploy</li>
+  <li>Duplicate <code class="language-plaintext highlighter-rouge">site-description_template</code>, and rename it as <code class="language-plaintext highlighter-rouge">site-description.md</code>. The template has the current description for one of the sites built with MOREL: Afro-Latin American Writers in Translation (ALAWiT). Edit to your site’s needs. But note that there are dynamic fields, such as <code class="language-plaintext highlighter-rouge">MOREL</code> and <code class="language-plaintext highlighter-rouge">90</code>. We recommend you to keep them in your edition, so your site description is automatically updated as your collection grows.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">ruby dev.rb</code> to deactivate the remote theme.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload</code>.</li>
+  <li>Move the file <code class="language-plaintext highlighter-rouge">_site/abouts/site-description.html</code> to <code class="language-plaintext highlighter-rouge">_includes</code>.</li>
+  <li>Remeber to run <code class="language-plaintext highlighter-rouge">ruby prod.rb</code> if you are going to update your changes to your production GitHub site.</li>
 </ul>
-
