@@ -2,14 +2,14 @@
 
 ## Basic {#install}
 
-1.- Fork the repository. That is, create a copy in your [Github](github.com) account (alternatively, [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository. If you choose this option, skip steps 2 and 3).
+1. Fork the repository. That is, create a copy in your [Github](github.com) account (alternatively, [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository. If you choose this option, skip steps 2 and 3).
 ![image](https://github.com/morelrep/morel-theme-generator/assets/33102833/207a8f3a-0d3d-49b1-bfad-f152f4b5bb4e)
-2.- Open your system's terminal in the folder on your local computer where you will be working on the site. Mac and Linux have native terminals. For Windows, you will have to use [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
-3.- Run `$ git clone http://github.com/[your_username]/morel-site-generator` to clone the forked repository to your desktop.
-4.- Run `$ cd morel-site-generator` to move to the repository folder
-5.- Run `$ bundle install` to install the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
-6.- Run `ruby dev.rb`(alternatively, delete `febr3s.github.io/morel-theme-generator` from the `remote_theme:` line in `_config.yml`)
-7.- Run `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload` to run the test site.
+2. Open your system's terminal in the folder on your local computer where you will be working on the site. Mac and Linux have native terminals. For Windows, you will have to use [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
+3. Run `$ git clone http://github.com/[your_username]/morel-site-generator` to clone the forked repository to your desktop.
+4. Run `$ cd morel-site-generator` to move to the repository folder
+5. Run `$ bundle install` to install the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
+6. Run `ruby dev.rb`(alternatively, delete `febr3s.github.io/morel-theme-generator` from the `remote_theme:` line in `_config.yml`)
+7. Run `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload` to run the test site.
 
 ## Customize {#configure}
 
