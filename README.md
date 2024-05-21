@@ -1,9 +1,21 @@
-## Instructions to install the theme
+# Instructions to install the theme
+
+## Prerequisites
+
+- **Zotero**: Install Zotero reference management software from the [official website](https://www.zotero.org/) and create collections to organize your content.
+
+- **Python**: Install Python programming language from the [official Python website](https://www.python.org/) based on your operating system. Ensure you have Python version 3.x installed.
+
+- **Jekyll**: Install Jekyll, a static site generator, using your preferred method:
+  - For macOS or Linux, open a terminal and run the following command:
+    ```bash
+    $ gem install bundler jekyll
+    ```
+  - For Windows, follow the installation guide provided on the [Jekyll website](https://jekyllrb.com/docs/installation/windows/).
 
 ## Basic {#install}
 
 1. Fork the repository. That is, create a copy in your [Github](github.com) account (alternatively, [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository. If you choose this option, skip steps 2 and 3).
-![image](https://github.com/morelrep/morel-theme-generator/assets/33102833/207a8f3a-0d3d-49b1-bfad-f152f4b5bb4e)
 2. Open your system's terminal in the folder on your local computer where you will be working on the site. Mac and Linux have native terminals. For Windows, you will have to use [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
 3. Run `$ git clone http://github.com/[your_username]/morel-site-generator` to clone the forked repository to your desktop.
 4. Run `$ cd morel-site-generator` to move to the repository folder
@@ -61,16 +73,17 @@ To fill it with your site's information, follow these steps:
 - To publish with a third party, follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/third-party/).
 - To publish to your personal server follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/manual/).
 
-## To install the theme as a local Ruby gem, or without code
+<!--- ## To install the theme as a local Ruby gem, or without code
 
 We are working on instructions and utilities to facilitate these possibilities. 
 
 ### Subscribe to one of our channels to stay updated {#suscribe}:
 
 - [Twitter](https://twitter.com/morelrep)
-- Email newsletter
+- Email newsletter-->
 <!-- <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/8aec37d971cdc280e8f9eb567/1a19782d38e75f439e3d5a1fd.js");</script>-->
-- [Facebook](https://www.facebook.com/morelrep)
+<!--
+- [Facebook](https://www.facebook.com/morelrep)-->
 
 ## Zotero fields {#zotero-fields}
 
