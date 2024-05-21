@@ -1,0 +1,39 @@
+---
+layout: default-blog
+---
+<div class="main-container post-container">
+ <!--Obra del día-->
+    <div class="obra-dia">
+    <div class="post-cover" style="">
+      <div class="ficha-title">
+        <h1>
+          {{ site.title }}
+        </h1>
+      </div> 
+    </div>
+    <div class="workarround">
+      
+    </div>
+    <div class="ficha-container sombra-solida blog" style="">
+      <div class="ficha-extract">
+        {% if page.img %}
+        <div style="text-align: center;padding:6rem 0px 2.5rem 0px;">
+          <img src="{{ site.BASE_PATH }}assets/img/{{ page.img }}" style="height: 60vh;width: auto;max-width: 100%;" class="responsive" alt="">
+        </div>
+        {% endif %}
+        <div class="blog-post">
+                  {% include site-description.html %}
+                  {{ content }}
+
+        </div>
+      </div>
+      
+      <div class="ficha-metadata">      
+      </div>
+      
+      
+    </div>
+   
+                
+  </div>
+</div>

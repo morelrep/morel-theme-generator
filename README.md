@@ -9,7 +9,7 @@
 4. Run `$ cd morel-site-generator` to move to the repository folder
 5. Run `$ bundle install` to install the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
 6. Run `ruby dev.rb`(alternatively, delete `febr3s.github.io/morel-theme-generator` from the `remote_theme:` line in `_config.yml`)
-7. Run `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload` to run the test site.
+7. Run `ruby serve-local.rb` (alternatively, `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`) to run the test site.
 
 ## Customize {#configure}
 
@@ -29,7 +29,7 @@ To fill it with your site's information, follow these steps:
   - `assets/img/tema/trama.png`
 - Open the `podcast.md` file and change the title and tagline of your podcast or blog.
 - The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`
-- Run the site locally with `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`
+- Run the site locally with `ruby serve-local.rb` (alternatively, `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`)
 - Open the `_site` folder and copy the file `site-description.html`to the `_includes`folder
 
 ## Generating the content from Zotero {#generate}
