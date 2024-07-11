@@ -11,7 +11,7 @@ layout: default
 <script>
   window.store = {
     {% for book in site.books %}
-      "{{ book.url | slugify }}": {
+      "{{ site.BASE_PATH }}{{ book.url | slugify }}": {
         "title": "{{ book.title | xml_escape }}",
         "author": "{{ book.author | xml_escape }}",
         "content": {{ book.content | strip_html | strip_newlines | jsonify }},
