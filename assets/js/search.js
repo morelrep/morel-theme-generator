@@ -7,13 +7,13 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="{{site.BASE_PATH}}' + item.url + '"><h3>' + item.title + '</h3></a>';
+        appendString += '<li><a href="morel-theme-generator' + item.url + '"><h3>' + item.title + '</h3></a>';
         appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
       }
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<p>Aún esa obra o esa autora no están disponibles. <a href="{{site.BASE_PATH}}/agregar">Sugiere su incorporación</a><p>';
+      searchResults.innerHTML = '<p>Aún esa obra o esa autora no están disponibles. <a href="morel-theme-generator/agregar">Sugiere su incorporación</a><p>';
     }
   }
 
