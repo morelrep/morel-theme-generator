@@ -13,7 +13,7 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<p>Aún esa obra o esa autora no están disponibles. <a href="morel-theme-generator/agregar">Sugiere su incorporación</a><p>';
+      searchResults.innerHTML = '<p>Aún esa obra o esa autora no están disponibles. <a href="/agregar">Sugiere su incorporación</a><p>';
     }
   }
 
