@@ -1,4 +1,5 @@
 (function() {
+  // Function to display search results
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
 
@@ -7,16 +8,25 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
+        
+        // Construct the URL with the base path
+        var basePath = '/morel-theme-generator'; // Replace with your actual base path
+        var url = basePath + item.url; // Concatenate base path with item.url
+
+        // Build the HTML string for each search result item
+        appendString += '<li><a href="' + url + '"><h3>' + item.title + '</h3></a>';
         appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
       }
 
+      // Update the search results container with the generated HTML
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<p>Aún esa obra o esa autora no están disponibles. <a href="/agregar">Sugiere su incorporación</a><p>';
+      // Display a message if no results are found
+      searchResults.innerHTML = '<p>Aún esa obra o esa autora no están disponibles. <a href="/agregar">Sugiere su incorporación</a></p>';
     }
   }
 
+  // Function to get query variables from URL
   function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
     var vars = query.split('&');
@@ -30,32 +40,35 @@
     }
   }
 
+  // Get the search query from URL parameter
   var searchTerm = getQueryVariable('query');
 
   if (searchTerm) {
+    // Set the search box value with the retrieved search term
     document.getElementById('search-box').setAttribute("value", searchTerm);
 
-    // Initalize lunr with the fields it will be searching on. I've given title
-    // a boost of 10 to indicate matches on this field are more important.
+    // Initialize Lunr.js for search indexing
     var idx = lunr(function () {
       this.field('id');
       this.field('title', { boost: 10 });
       this.field('author');
-      this.field('author');
       this.field('content');
     });
 
-    for (var key in window.store) { // Add the data to lunr
+    // Add data to Lunr.js index from window.store
+    for (var key in window.store) {
       idx.add({
         'id': key,
         'title': window.store[key].title,
         'author': window.store[key].author,
-        'author': window.store[key].author,
         'content': window.store[key].content
       });
-
-      var results = idx.search(searchTerm); // Get lunr to perform a search
-      displaySearchResults(results, window.store); // We'll write this in the next section
     }
+
+    // Perform search using Lunr.js
+    var results = idx.search(searchTerm);
+    
+    // Display search results
+    displaySearchResults(results, window.store);
   }
 })();
