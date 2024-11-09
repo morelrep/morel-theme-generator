@@ -43,6 +43,7 @@ To fill it with your site's information, follow these steps:
 - The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`
 - Run the site locally with `ruby serve-local.rb` (alternatively, `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`)
 - Open the `_site` folder and copy the file `site-description.html`to the `_includes`folder
+- Open the `about.md` file and delete the line `{% include_relative README.md %}`
 
 ## Generating the content from Zotero {#generate}
 
@@ -68,6 +69,7 @@ To fill it with your site's information, follow these steps:
 - Browse your custom site!
 
 ## Deploy {#publish}
+
 - Run `$ ruby prod.rb`(alternatively, add `febr3s.github.io/morel-theme` to the `remote_theme` line:)
 - To publish to Github, follow their [instructions](https://docs.github.com/en/pages/quickstart) (ignore the "New repository" step as you are working with your MOREL fork).
 - To publish with a third party, follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/third-party/).
