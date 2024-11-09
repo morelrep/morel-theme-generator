@@ -8,8 +8,8 @@ github :
 twitter : 
 instagram:
 remote_theme: morelrep/morel-theme
-podcast: true
-jotform:
+podcast:
+jotform: https://form.jotform.com/211904785426056
 
 # If you want to build your site in a repo that is not named youruser.github.io (for example youruser.github.io/reponame), uncomment the following line
 BASE_PATH: /morel-theme-generator
