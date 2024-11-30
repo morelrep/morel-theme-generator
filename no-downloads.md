@@ -1,4 +1,4 @@
 ---
 layout: books-no-download
-title: Books to browse in ALAWiT
+title: books to browse
 ---

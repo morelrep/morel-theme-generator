@@ -1,0 +1,37 @@
+---
+layout: default
+---
+        <h1 class="index">{{ site.tagline }}</h1>
+        
+       
+
+        <!--Búsqueda-->
+        <a href="search"><div class="search-index"><i class="fa fa-search" aria-hidden="true" class="search-index"></i></div></a>
+
+        <!-- One random book -->
+        <div class="row obras obra-suerte">
+            <h2 class="index">One book by chance</h2>
+        </div>
+        {% include book-sample.html %}
+
+
+        <!--Últimas siete traducciones registradas -->        
+        <div class="row obras obra-suerte">
+            <h2 class="index">Some book translations</h2>
+        </div>
+        {% include book-list-translations.html %}
+       
+
+        <!--Descargables-->
+        <div class="row obras">
+            <h2 class="index">Some books for download</h2>
+        </div>
+        {% include book-list-download.html %}
+
+        <!--No descargables-->
+        <div class="row obras">
+            <h2 class="index">More books to browse</h2>
+        </div>
+         {% include book-list-no-download.html %}
+        
+       
