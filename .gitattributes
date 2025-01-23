@@ -1,0 +1,14 @@
+_about/* merge=ours
+_authors/* merge=ours
+_books/* merge=ours
+_cities/* merge=ours
+_data/* merge=ours
+_layouts/* merge=ours
+_includes/site-description-html merge=ours
+_posts/* merge=ours
+_publishers/* merge=ours
+_repositories/* merge=ours
+assets/* merge=ours
+_config.yml merge=ours
+about.md merge=ours
+podcast.md merge=ours
