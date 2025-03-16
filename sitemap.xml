@@ -1,0 +1,40 @@
+---
+layout: null
+search: exclude
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    {% for page in site.pages %}
+    <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        <lastmod>{{ page.date | default: site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+        <lastmod>{{ post.date | default: site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+
+    {% for collection in site.collections %}
+        {% unless collection.label == "posts" %}  <!-- Avoid duplication with posts -->
+            {% for item in collection.docs %}
+            <url>
+                <loc>{{ site.url }}{{ item.url }}</loc>
+                <lastmod>{{ item.date | default: site.time | date: '%Y-%m-%d' }}</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.5</priority>
+            </url>
+            {% endfor %}
+        {% endunless %}
+    {% endfor %}
+
+</urlset>
