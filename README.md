@@ -15,17 +15,16 @@
 
 ## Basic {#install}
 
-1. Fork the repository. That is, create a copy in your [Github](github.com) account (alternatively, [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository. If you choose this option, skip steps 2 and 3).
-2. Open your system's terminal in the folder on your local computer where you will be working on the site. Mac and Linux have native terminals. For Windows, you will have to use [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
+1. Fork the [repository](https://github.com/morelrep/morel-theme-generator/fork). That is, create a copy in your [Github](github.com) account (alternatively, [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository. If you choose this option, skip steps 2 and 3).
+2. Open or create a folder on your local computer where you store your dev projects. For example `/home/dev`. Open your system's terminal in that folder. Mac and Linux have native terminals. For Windows, you will have to use [WLS](https://learn.microsoft.com/en-us/windows/wsl/install).
 3. Run `$ git clone http://github.com/[your_username]/morel-site-generator` to clone the forked repository to your desktop.
-4. Run `$ cd morel-site-generator` to move to the repository folder
+4. Run `$ cd morel-theme-generator` to move to the repository folder
 5. Run `$ bundle install` to install the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
-6. Run `ruby dev.rb`(alternatively, delete `febr3s.github.io/morel-theme-generator` from the `remote_theme:` line in `_config.yml`)
-7. Run `ruby serve-local.rb` (alternatively, `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`) to run the test site.
+6. Run `ruby serve-local.rb` (alternatively, `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`) to run the test site.
 
 ## Customize {#configure}
 
-Now you have on your local computer a ready-made site *with sample content, from the MOREL  site Afro Latin American Writers in Translation ([ALAWiT](https://alawit.org))*. You can run it locally to test with `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`. 
+Now you have on your local computer a ready-made site **with sample content**, from the MOREL  site *Afro Latin American Writers in Translation* ([ALAWiT](https://alawit.org))*.
 
 To fill it with your site's information, follow these steps:
 
@@ -41,18 +40,18 @@ To fill it with your site's information, follow these steps:
   - `assets/img/tema/trama.png`
 - Open the `podcast.md` file and change the title and tagline of your podcast or blog.
 - The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`
-- Run the site locally with `ruby serve-local.rb` (alternatively, `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`)
-- Open the `_site` folder and copy the file `site-description.html`to the `_includes`folder
-- Open the `about.md` file and delete the line `{% raw %}{% include_relative README.md %}{% endraw %}`
+- Stop the site with `ctrl-c` and run again the site locally with `ruby serve-local.rb` (alternatively, `$ bundle exec jekyll serve --config _config.yml,_config_local.yml --livereload`)
+- Open the `_site/abouts` folder and substitute with it the file `site-description.html` in the `_includes`folder
+<!--- Open the `about.md` file and delete the line `{% raw %}{% include_relative README.md %}{% endraw %}`-->
 
 ## Generating the content from Zotero {#generate}
 
 ### Extracting data and scripts
 
-- Run `$ jekyll build --config _config_local.yml` to import to the `_sites` folder the updated content generators.
+- Run `$ bundle exec jekyll build --config _config_local.yml` to import to the `_sites` folder the updated content generators.
 - Run `$ unzip -d ./assets/ ./_site/assets/env.zip` to update the Python environment that generates the contents.
 - Open [Zotero](https://www.zotero.org/) and review the [guide](#zotero-fields) at the end of this instructions to make the fields 100 % readable for MOREL.
-- Export your Zotero collection as `csv`. If you don't know how to do it follow the instructions [here](https://www.zotero.org/support/kb/exporting). 
+- Export your Zotero collection as `csv`. If you don't know how to do it follow the instructions [here](https://www.zotero.org/support/kb/exporting). Be careful to **not** export your **whole**  Zotero collection. Just export the part of it that you want to generate as a site.
 - Name your `csv` file as `books_zotero.csv`. Replace the file of the same name found in the `assets/data` folder.
 
 ### Using Python to generate content
