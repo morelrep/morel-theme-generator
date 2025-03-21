@@ -5,4 +5,11 @@ _site
 vendor
 Readme_draft.md
 dev
-assets/env
+assets/env/bin
+assets/env/include
+assets/env/lib
+assets/env/man
+assets/env/share
+assets/env/src/__pycache__
+pyvenv.cfg
+*.zip
