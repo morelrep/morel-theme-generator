@@ -1,3 +1,0 @@
----
-title: Herrera, Georgina
----

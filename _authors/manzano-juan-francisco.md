@@ -1,3 +1,0 @@
----
-title: Manzano, Juan Francisco
----

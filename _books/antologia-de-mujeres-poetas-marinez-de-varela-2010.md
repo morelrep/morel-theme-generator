@@ -1,6 +1,0 @@
----
-title: "Antología de mujeres poetas afrocolombianas"
-key: "C984SS4S"
-author: Marinez de Varela, Alfredo; Zarkanchenko de González, Luz Colombia; Posada de Pupo, Elisa; Panchano, Lucrecia; Benet Robinson, Ofelia Margarita; Mina Díaz, Bertulia; Ramírez Nieva, María Teresa; Viveros Vigoya, Leida; Mina Díaz, Imelda; Grueso Romero, Mary; Posso Figueria, Amalia Lú; Mina Díaz, Ana Teresa; Valencia, Laura Victoria; Vélez, Turque; Chavarría Londoño, Hermilda; Cueto Mercado, Muris; Truque, Sonia Nadhezda; Sierra González, Lya; Zapata Pérez, Edelma; Castillo, Nila del Socorro; Truque, Yvonne América; Diago, Ruth Patricia; Corpus Stephens, Briceña; de la Torre Córdoba, Jenny; Adress Guzmán, Alexandra; Guerrero Muñoz, Clara; Duque Palacios, Sayly; Castillo Reina, Felipa Trifenia; Solarte Orejuela, Sonia
----
-<div data-schema-version="6"><p>Tocá ese tambor</p> <p>Tocá ese tambor hijo mío,</p> <p>vuelen sobre él tus manos mestizas,</p> <p>confluye a tu sangre africana,</p> <p>confluye a tu sangre india.</p> <p>Tocá ese tambor hijo mío,</p> <p>cierra los ojos y vuela,</p> <p>en las notas temblorosas</p> <p>ritmo de baile africano,</p> <p>cante tu boca bembita,</p> <p>tromponcita y cariñosa.</p> <p>Tocá ese tambor hijo mío,</p> <p>vuelen tus manos mestizas,</p> <p>en los sonidos de África,</p> <p>con tu boca medio bemba</p> <p>y tu pasita amonada.</p> </div>

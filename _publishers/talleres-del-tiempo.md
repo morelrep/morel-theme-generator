@@ -1,3 +1,0 @@
----
-title: "Talleres del Tiempo"
----

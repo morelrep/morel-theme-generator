@@ -1,3 +1,0 @@
----
-title: Alves, Miriam Aparecida
----

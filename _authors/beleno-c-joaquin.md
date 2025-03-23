@@ -1,3 +1,0 @@
----
-title: Beleño C., Joaquín
----

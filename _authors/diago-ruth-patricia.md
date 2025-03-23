@@ -1,3 +1,0 @@
----
-title: Diago, Ruth Patricia
----

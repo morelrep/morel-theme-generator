@@ -1,6 +1,0 @@
----
-title: "Juyungo: a classic Afro-Hispanic novel"
-key: "JRVGSDG9"
-author: Ortiz, Adalberto; Hill, Susan F.
----
-<div data-schema-version="8"><p>Don Valerio Verduga Barberán combed his fingers through his dull, disheveled hair, and it seemed to him that the mist falling that morning on the village of Santo Domingo de los Colorados was a fine-gauze mosquito netting. He let his gaze run over the straw roofs which, across from his house of zinc, streamed straight as Indian hair. They reminded him of the grave and silent vultures which flapped their black, open wings, as if to say: ‘Tomorrow I make a home, tomorrow I make a home’.</p> <p>The noisy overflow of the crystalline torrent reached his ears. It snaked through the underbrush, from where unkempt and diligent women, each with a gourd, carried water, Meanwhile, children and adolescents, greenish as the pulp of tender papayas, played with coconuts and glass marbles beneath the hovels that partially surrounded the dilapidated square. The plaza was carpeted with brush and weeds, and rent, in its tremulous and humid verdor, by the diagonal wounds of the familiar little paths.</p> </div>

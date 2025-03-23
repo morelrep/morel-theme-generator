@@ -1,3 +1,0 @@
----
-title: Hernández, Gaspar Octavio
----

@@ -1,3 +1,0 @@
----
-title: Bustos Aguirre, Rómulo
----

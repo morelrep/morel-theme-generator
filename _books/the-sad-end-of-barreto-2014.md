@@ -1,6 +1,0 @@
----
-title: "The sad end of Policarpo Quaresma"
-key: "3BKPQ5K4"
-author: Barreto, Lima; Carlyon, Mark
----
-<div data-schema-version="8"><p>The buildings in the suburbs of Rio de Janeiro are the strangest of all the city. Part of this is undoubtedly due to the local topography, the capricious shape of the hills. The main cause, however, is the bizarre nature of the buildings themselves.</p> <p>You can picture nothing as irregular, as erratic and as completely unplanned. The houses sprouted up like seeds that had been scattered by the wind, and the streets sprouted up alongside them. Some begin as wide as a boulevard and end as narrow as an alley; they meander align in fortuitous loops and resist straightened out with implacable tenacity.</p> <p>At times they run parallel, with irritating regularity; at others they draw away from each other, leaving large open spaces crammed with houses, In some places the houses are piled on top of each other, oppressively passed together, Then suddenly a field opens out, stretching away as far as the eye can see.</p> </div>

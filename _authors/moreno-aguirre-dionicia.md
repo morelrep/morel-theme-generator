@@ -1,3 +1,0 @@
----
-title: Moreno Aguirre, Dionicia
----

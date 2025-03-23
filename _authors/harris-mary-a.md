@@ -1,3 +1,0 @@
----
-title: Harris, Mary A.
----

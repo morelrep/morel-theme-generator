@@ -1,3 +1,0 @@
----
-title: Editorial Costa Rica
----

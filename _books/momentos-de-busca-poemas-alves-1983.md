@@ -1,6 +1,0 @@
----
-title: "Momentos de busca: poemas"
-key: "WQPEQIFF"
-author: Alves, Miriam Aparecida
----
-<div data-schema-version="8"><p>Gostaria de concluir tudo aquilo</p> <p>que meus olhos veem</p> <p>nao conseguem enxergar</p> <p>As palavras que interpolam no lábios</p> <p>nao se soltan</p> <p>O riso solto fere os sentidos</p> <p>As manos querem agarrar</p> <p>o noturno</p> <p>Os cabelos sensíveis tocam fundo</p> <p>Os pés alisando a areia molhada</p> <p>arrepiando o corpo a cada passo</p> <p>Os passos dirigindo-se as águas</p> <p>salgadas</p> <p>O sol a água banhando-me</p> <p>os olhos fechados para nao verem</p> <p>os morros verdes</p> <p>escurecendo</p> <p>tomando formas incertas</p> <p>tentadores da noite.</p> <p>Noite completando o meu sonho</p> <p>lua embacando a o vidro de minha razáo</p> <p>Razáo de sentir um único desejo</p> <p>desejo adulto forte</p> <p>bom solto</p> <p>quase completo</p> <p>O rostro sorrindo</p> <p>esvaindo-se prezeirosa sensacao</p> <p>areia, mulher, luar, sorriso</p> <p>completano o inevitável</p> <p>natureza seguindo seu curso</p> <p>mar...</p> <p>Mulher cumprindo seu curso</p> <p>Vida...</p> </div>

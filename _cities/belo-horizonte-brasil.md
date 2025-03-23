@@ -1,3 +1,0 @@
----
-title: Belo Horizonte, Brasil
----

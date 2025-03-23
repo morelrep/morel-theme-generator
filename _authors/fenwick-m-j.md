@@ -1,3 +1,0 @@
----
-title: Fenwick, M. J.
----

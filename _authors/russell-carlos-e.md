@@ -1,3 +1,0 @@
----
-title: Russell, Carlos E
----

@@ -1,6 +1,0 @@
----
-title: "Por los senderos de sus ancestros: textos escogidos: 1940-2000"
-key: "56ASHB64"
-author: Zapata Olivella, Manuel
----
-<div data-schema-version="8"><p>En la medida en que vamos tomando conciencia de los valores culturales de nuestra nacionalidad, surgen en el país entidades, personas y grupos que se dedican a las más variadas actividades folclóricas. Se madura el concepto de cultura, extendiendo su significación no solo a los valores de la pintura, literatura, música y artes tradicionalmente tenidas como clásicas, sino también a la creación popular, anónima, donde siempre queda la huella viva del pueblo que la produce.</p> <p>En esta fragua del arte anónimo, transmitido por generaciones y generaciones, nunca hay el fracaso que implica la experiencia novedosa –procedimientos de pintura, acoplamiento de la música a la danza, recetas de cocina, utilización de las fibras vegetales, etcétera–, porque en él ya están presupuestos los ensayos, la perfección de pueblos enteros en un tiempo indefinido.</p> </div>

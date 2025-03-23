@@ -1,3 +1,0 @@
----
-title: Assis, Machado de
----

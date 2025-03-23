@@ -1,3 +1,0 @@
----
-title: Guerrrero, Julia Simona
----

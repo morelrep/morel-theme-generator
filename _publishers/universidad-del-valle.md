@@ -1,3 +1,0 @@
----
-title: Universidad del Valle
----

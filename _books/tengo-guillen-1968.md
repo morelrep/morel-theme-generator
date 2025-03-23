@@ -1,6 +1,0 @@
----
-title: "Tengo"
-key: "JDWW5Z5X"
-author: Guillén, Nicolás
----
-<div data-schema-version="8"><p>Tengo, vamos a ver,</p> <p>que siendo un negro</p> <p>nadie me puede detener</p> <p>a la puerta de un dancing o de un bar.</p> <p>O bien en la carpeta de un hotel</p> <p>gritarme que no hay pieza,</p> <p>una mínima pieza y no una pieza colosal,</p> <p>una pequeña pieza donde yo pueda descansar.</p> <p></p> <p>Tengo, vamos a ver,</p> <p>que no hay guardia rural</p> <p>que me agarre y me encierre en un cuartel,</p> <p>ni me arranque y me arroje de mi tierra</p> <p>al medio del camino real.</p> <p></p> <p>Tengo que como tengo la tierra tengo el mar,</p> <p>no country, no jailáif,</p> <p>no tenis y no yacht,</p> <p>sino de playa en playa y ola en ola,</p> <p>gigante azul abierto democrático:</p> <p>en fin, el mar.</p> </div>

@@ -1,3 +1,0 @@
----
-title: Cueto Mercado, Muris
----

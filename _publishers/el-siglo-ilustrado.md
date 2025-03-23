@@ -1,3 +1,0 @@
----
-title: El Siglo Ilustrado
----

@@ -1,3 +1,0 @@
----
-title: "Librería Hispano-Americana"
----

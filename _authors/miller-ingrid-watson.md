@@ -1,3 +1,0 @@
----
-title: Miller, Ingrid Watson
----

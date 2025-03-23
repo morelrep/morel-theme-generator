@@ -1,3 +1,0 @@
----
-title: Chiriboga, Luz Argentina
----

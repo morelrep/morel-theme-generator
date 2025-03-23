@@ -1,3 +1,0 @@
----
-title: Joseph Montout, Dolores
----

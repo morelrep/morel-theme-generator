@@ -1,6 +1,0 @@
----
-title: "Capão Pecado"
-key: "CT5C57HJ"
-author: Ferreira da Silva «Ferréz», Reinaldo
----
-<div data-schema-version="8"><p>Capão Redondo, pra mim, mano, é um mundo à parte, é um país com vários estados que são as quebradas: São Luís, Vaz de Lima, Capelinha, Campo Limpo, Rosa, Sabin, Atlântico, Sto. Eduardo, são Bento, Valo Velho, Jangadeiro, Jd. Ângela etc. &nbsp;</p> <p>Rael e cebola jogaram vídeo game até anoitecer. Quando Rael estava quase indo embora, Matcherros acordou e eles começaram a conversar. Combinaram de ir ao baile da News Black Chic, lá no pátio da escola José Olímpio; o som da equipe era muito bom e vinha gente lá do Valo Velho, Piraporinha, Jd. Ingá, Pirajussara, Morro do s, Pq. Regina, Pq. Arariba, São Luís, Buraco do Sapo, Pq. Fernanda e de várias quebradas, pois os bailes e roles noturnos eram cada vez mais raros na periferia. </p> <p>Periferia é tudo igual, não importa o lugar: zona leste, oeste, norte ou sul. Não importa se é no rio de Janeiro, em Minas Gerais, Brasília ou em São Paulo. Enfim, seja lá qual for o lugar, sempre serão os mesmos problemas que desqualificam o povo + pobre, moradores de casas amontoadas umas em cima das outras.</p> </div>

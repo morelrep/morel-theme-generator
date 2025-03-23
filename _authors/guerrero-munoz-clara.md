@@ -1,3 +1,0 @@
----
-title: Guerrero Muñoz, Clara
----

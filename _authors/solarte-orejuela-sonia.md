@@ -1,3 +1,0 @@
----
-title: Solarte Orejuela, Sonia
----

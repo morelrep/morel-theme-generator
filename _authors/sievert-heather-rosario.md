@@ -1,3 +1,0 @@
----
-title: Sievert, Heather Rosario
----

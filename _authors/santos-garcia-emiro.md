@@ -1,3 +1,0 @@
----
-title: Santos García, Emiro
----

@@ -1,6 +1,0 @@
----
-title: "The best short stories of Quince Duncan"
-key: "HY5BWLI2"
-author: Duncan, Quince; Martin-Ogunsola, Dellita
----
-<div data-schema-version="8"><p>Siempre con el mismo lodazal de ayer. Cada día y cada hora, los ojos llenos de agonía y las manos secas por tanta lucha, y total para nada. Y dicen que uno es vago, que no le gusta trabajar la tierra, y yo pregunto, ¿trabajar la tierra para qué? Total, la tierra no nos pertenece después de cincuenta años de trabajarla. Un día aparece el verdadero dueño: uno que no había nacido cuando papá dio en esos terrenos la primera machetada, y reclama la tierra y nos echa. Mejor trabajemos en el muelle. ¿Y trabajar en el muelle para qué? Día tras día con los callos vivos restregándose contra las callosidades muertas, como lumbre y ceniza la palma, cansada de producir riqueza para ninguno de los míos; el mundo tiene su particular estilo que nadie le quita porque es mug suyo, pues, a la verdad, así la hicieron y así se queda. De tal manera, entonces, condenación al infierno y jale.</p> </div>

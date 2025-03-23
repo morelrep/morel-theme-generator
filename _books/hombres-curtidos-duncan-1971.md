@@ -1,6 +1,0 @@
----
-title: "Hombres curtidos"
-key: "V3AL6LXN"
-author: Duncan, Quince
----
-<div data-schema-version="8"><p>Mi esposa contempla el caserío en silencio. Se le ve en los ojos que aún duda sobre la causa de mi retorno. Nadie lo sabe, tal vez ni yo mismo lo sé.</p> <p>Los amigos de la capital no me perdonarán nunca el haber dejado la gran ciudad, la vida rápida de la élite artística que nuestra generación trata de crear. Los discursos sobre el ultra-literatura, arte, el servicio del hombre, todo, todo eso y las otras cosas que la vida urbana involucra.</p> </div>

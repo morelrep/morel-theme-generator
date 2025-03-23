@@ -1,6 +1,0 @@
----
-title: "Sirena selena"
-key: "JKIGEAXF"
-author: Santos-Febres, Mayra; Lytle, Stephen
----
-<div data-schema-version="8"><p>The bigger one, the smaller one. One is hombre, the other is mujer, although he can be the smaller one; the man is not necessarily stronger or bigger than the other one, but he’s the one who leads, who decides, who rules. There are many ways to rule, many things required to be un hombre or to be una mujer, for each person can decide for himself. Sometimes &nbsp;you can even be both. Without having to choose one or the other. Money, a big car, the billetes to go far away, to go into the best bars, the one with the most lights. That’s what the man has, And if he dances and the other one leads, then he’s la &nbsp;mujer. And if she decides where to go, then she’s el hombre, but if he stays there in the arms of Migueles, who is leading, he’s una mujer. But what if it was she who convinced him to dance, who brought him here with her hot face and her tricks? Then who is el hombre, la mujer?</p> </div>

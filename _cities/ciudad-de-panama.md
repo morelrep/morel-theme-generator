@@ -1,3 +1,0 @@
----
-title: Ciudad de Panamá
----

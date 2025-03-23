@@ -1,3 +1,0 @@
----
-title: Schulman, Iván A
----

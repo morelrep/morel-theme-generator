@@ -1,3 +1,0 @@
----
-title: Zapata Olivella, Manuel
----

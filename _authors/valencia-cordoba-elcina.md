@@ -1,3 +1,0 @@
----
-title: Valencia Córdoba, Elcina
----

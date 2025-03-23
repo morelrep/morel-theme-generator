@@ -1,3 +1,0 @@
----
-title: Durán Ayanegui, Fernando
----

@@ -1,6 +1,0 @@
----
-title: "Memoria y resistencia: antologia"
-key: "9TJZQNCM"
-author: Rodríguez Cabral, Cristina
----
-<div data-schema-version="8"><p>Soy resistencia y memoria.</p> <p>Construí el camino del amo</p> <p>así como el de la libertad.</p> <p>Morí en la Casa Grande</p> <p>igual que en la Senzala.</p> <p>Dejé el ingenio y descalza</p> <p>me hice cimarrona.</p> <p>Sola fui comunidad, casa y gobierno</p> <p>porque escasas veces estuviste allí;</p> <p>Hombre Negro sin memoria,</p> <p>codo a codo</p> <p>espalda contra espalda,</p> <p>sigues sin estar allí. </p> <p>Negro,</p> <p>nuestro ausente de siempre,</p> <p>generación tras generación,</p> <p>yo te parí,</p> <p>como a tu padre</p> <p>y a tus hermanos.</p> <p>Yo curvé la espalda</p> <p>sujetándote durante la cosecha;</p> <p>sangro, lucho, resisto</p> <p>y desconoces mi voz.</p> </div>

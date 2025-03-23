@@ -1,6 +1,0 @@
----
-title: "La copa de amatista"
-key: "52NJ4GHR"
-author: Hernández, Gaspar Octavio
----
-<div data-schema-version="8"><p></p> <p>Ni tez de nácar, ni cabellos de oro<br>veréis ornar de galas mi figura;<br>ni la luz del zafir , celeste y pura,<br>veréis que en mis pupilas atesoro.</p> <p><br>Con piel tostada de atezado moro ;<br>con ojos negros de fatal negrura,<br>del Ancón a la falda verde oscura<br>nací frente al Pacífico sonoro.</p> <p><br>Soy un hijo del Mar…. Porque en mi alma<br>hay,--como sobre el mar,-- noches de calma,<br>indefinibles cóleras sin nombre<br>y un afán de luchar conmigo mismo ,<br>cuando en penas recónditas me abismo<br>pienso que soy un mar trocado en hombre!</p> <p>1915.</p> </div>

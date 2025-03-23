@@ -1,3 +1,0 @@
----
-title: Ortiz, Adalberto
----

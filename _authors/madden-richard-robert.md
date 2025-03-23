@@ -1,3 +1,0 @@
----
-title: Madden, Richard Robert
----

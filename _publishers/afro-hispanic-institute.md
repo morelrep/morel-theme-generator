@@ -1,3 +1,0 @@
----
-title: Afro-Hispanic Institute
----

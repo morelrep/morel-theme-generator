@@ -1,3 +1,0 @@
----
-title: Carr, Richard J.
----

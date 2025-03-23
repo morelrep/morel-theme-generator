@@ -1,3 +1,0 @@
----
-title: Cartagena Portalatón, Aída
----

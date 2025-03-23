@@ -1,3 +1,0 @@
----
-title: Carmell, Pamela
----

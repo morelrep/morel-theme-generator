@@ -1,3 +1,0 @@
----
-title: Cordones-Cook, Juanamaría
----

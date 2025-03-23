@@ -1,3 +1,0 @@
----
-title: "Imprenta La Prosperidad"
----

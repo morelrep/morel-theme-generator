@@ -1,6 +1,0 @@
----
-title: "Cuentos y relatos escogidos"
-key: "IQG47SVA"
-author: Durán Ayanegui, Fernando
----
-<div data-schema-version="8"><p>Como casi todo en mi niñez, esto aconteció en Alajuela y no puedo adivinar qué alimento o qué dolencia provocó la diarrea de mi pariente. Pero lo cierto es que, por hallarse cerca de ahí &nbsp;en el momento del apuro, se vio obligado a pedir permiso para utilizar, aquella tarde de julio de 1950, el excusado de mi casa. Como era lo común entonces, esa íntima facilidad estaba situada en el fondo del patio, y la frugalidad de la época hacía del papel higiénico algo suntuoso, que los pobres sustituíamos con hojas de diarios atrasados, meticulosamente recortadas en cuatro de modo que en el ventilado cubículo siempre había un grueso gancho de alambre del que colgaba un rimero de trozos de papel periódico.</p> <p>(…)</p> <p>--Negra, yo creo que esto le puede servir al negrito.</p> <p>El “negrito” lo era yo por cuenta de mi tatarabuelo africano que fue esclavo cortador de caña en Jamaica, y no estando para mí claro en aquel momento de dónde había sacado Daniel lo que a su juicio me habría de ser útil, di rienda suelta a mi curiosidad y me desenjaboné tan rápidamente como pude. Cuando salí del baño ya Daniel había partido, pero ahí estaba mi madre leyendo con interés un pedazo de papel periódico que me tendió de inmediato:</p> </div>

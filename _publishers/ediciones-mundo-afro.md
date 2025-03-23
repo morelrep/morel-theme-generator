@@ -1,3 +1,0 @@
----
-title: Ediciones Mundo Afro
----
