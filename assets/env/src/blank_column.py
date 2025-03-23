@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Define the path to the input CSV file
-input_file = '../../../_data/books.csv'
+input_file = '_data/books.csv'
 
 # Define the path to the output CSV file
-output_file = '../../../_data/books.csv'
+output_file = '_data/books.csv'
 
 # Add a blank column at the beginning of the CSV file
 def add_blank_column(input_file, output_file):

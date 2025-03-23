@@ -3,7 +3,7 @@ import pandas as pd
 from slugify import slugify
 
 # Create a dataFrame from csv file
-data = pd.read_csv("../../../_data/books.csv", sep=',', engine ='python', encoding="utf-8").fillna('')
+data = pd.read_csv("_data/books.csv", sep=',', engine ='python', encoding="utf-8").fillna('')
 
 # Set the titles column to a list
 books = data.values.tolist()
@@ -34,7 +34,7 @@ for book in books:
 
 	print(url)
 
-	file_name = f'../../../_books/{url}.md'	
+	file_name = f'_books/{url}.md'	
 
 
 	with open(file_name, 'w', encoding="utf-8") as f:

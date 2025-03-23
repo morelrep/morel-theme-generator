@@ -2,7 +2,7 @@ import pandas as pd
 from slugify import slugify
 
 # Load the CSV file into a DataFrame
-data = pd.read_csv("../../../_data/books.csv", sep=',', engine='python', encoding="utf-8").fillna('')
+data = pd.read_csv("_data/books.csv", sep=',', engine='python', encoding="utf-8").fillna('')
 
 # Convert the DataFrame into a list of rows for processing
 books = data.values.tolist()
@@ -25,7 +25,7 @@ for book in books:
 
         # Slugify the URL
         url = slugify(url_raw)
-        file_name = f'../../../_authors/{url}.md'
+        file_name = f'_authors/{url}.md'
 
         # Write the author details to the file
         title = author.strip()  # Use full name as title

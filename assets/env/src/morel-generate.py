@@ -1,8 +1,7 @@
 # import sys
 # sys.path.append('scripts/')
 
-# import copy_about # website-content
-
+import copy_about # website-content
 import field_updates # csv-process
 import replace_quotes # csv-process
 import copy_img # content-collections

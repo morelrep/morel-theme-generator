@@ -5,13 +5,13 @@ from slugify import slugify
 
 # Create a DataFrame from the CSV file
 # This reads the CSV file containing book data and fills missing values with an empty string
-data = pd.read_csv("../../../_data/books.csv", sep=',', engine='python', encoding="utf-8").fillna('')
+data = pd.read_csv("_data/books.csv", sep=',', engine='python', encoding="utf-8").fillna('')
 
 # Convert the DataFrame into a list of rows for processing
 books = data.values.tolist()
 
 # Define the default image file to use when the source column is empty
-default_image = "../../empty.png"
+default_image = "assets/empty.png"
 
 # Check if the default image exists to avoid errors during the script execution
 if not os.path.exists(default_image):
@@ -47,7 +47,7 @@ for book in books:
         src = default_image
 
     # Define the destination path where the file will be copied
-    dst = f"../../../assets/img/{file_name}"  # Destination folder with the new file name
+    dst = f"assets/img/{file_name}"  # Destination folder with the new file name
 
     # Check if the source file exists before attempting to copy
     if not os.path.exists(src):  # Prevent errors due to missing source files
