@@ -48,27 +48,16 @@ To fill it with your site's information, follow these steps:
 - Browse your custom site!
 
 ## Deploy {#publish}
-- Run `$ ruby prod.rb`(alternatively, add `febr3s.github.io/morel-theme` to the `remote_theme` line:)
+- Run `$ ruby prod.rb` (alternatively, add ```https://github.com/morelrep/morel-theme``` to the `remote_theme` line:)
 - To publish to Github, follow their [instructions](https://docs.github.com/en/pages/quickstart) (ignore the "New repository" step as you are working with your MOREL fork).
 - To publish with a third party, follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/third-party/).
 - To publish to your personal server follow Jekyll's [instructions](https://jekyllrb.com/docs/deployment/manual/).
 
-## To install the theme as a local Ruby gem, or without code
 
-We are working on instructions and utilities to facilitate these possibilities. 
 
-### Subscribe to one of our channels to stay updated {#suscribe}:
-
-- [Twitter](https://twitter.com/morelrep)
-- Email newsletter
-<!-- <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/8aec37d971cdc280e8f9eb567/1a19782d38e75f439e3d5a1fd.js");</script>-->
-- [Facebook](https://www.facebook.com/morelrep)
-
-## Zotero fields {#zotero-fields}
+## Zotero Fields {#zotero-fields}
 
 MOREL items are added in the same way that items are added in any [Zotero library](https://www.zotero.org/support/adding_items_to_zotero). In its current version, MOREL can only process items of type `book`. Since not all the fields needed for MOREL are available for the `book` content type, some considerations must be made:
 
-- Excerpt: the fragment from each MOREL record corresponds to the `notes` of Zotero (see the [documentation] of the notes (https://www.zotero.org/support/notes) of Zotero). In its current version, MOREL *only accepts one excerpt per book*.
+- Excerpt: the fragment from each MOREL record corresponds to the `notes` of Zotero (see the [documentation](https://www.zotero.org/support/notes) about Zotero notes). In its current version, MOREL *only accepts one excerpt per book*.
 - Cover: the cover is a jpg file that is added as an `attachment` to the Zotero item (see the Zotero attachments [documentation](https://www.zotero.org/support/attaching_files)).
-- Translation or original: in order to filter translated books from originals, MOREL uses Zotero's `Series` field to indicate whether it is a translation with the `tr` sign.
-- First edition: MOREL uses the `Date` field for the date of publication of the book and the `Edition` field for the date of first edition.
