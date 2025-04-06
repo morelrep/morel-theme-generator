@@ -11,22 +11,22 @@
 - Run:  
 ```
 $ git clone https://github.com/[your_username]/morel-theme-generator
-```  
+```
 to clone the repository.
 - Run:  
 ```
 $ cd morel-theme-generator
-```  
+```
 to move to the repository folder.
 - Run:  
 ```
 $ bundle update
-```  
+```
 to update the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
 - Run:  
 ```
 $ ruby serve-local.rb
-```  
+```
 to launch the test site locally.
 
 ## Customize {#configure}
@@ -59,16 +59,31 @@ $ ruby serve-local.rb
 ### Local (using command line) 
 
 - Open [Zotero](https://www.zotero.org/) and review the [guide](#zotero-fields) at the end of this instructions to make the fields 100 % readable for MOREL.
+
 - Export your Zotero collection as a `.csv` file. If you don't know how to do it follow the instructions [here](https://www.zotero.org/support/kb/exporting). 
+
 - Name your `.csv` file `books_zotero.csv` and place it inside the `assets/data` folder.
-<!--
-- Run `$ cd assets/env/bin` to go to the folder where the Python environment is activated. Activate it with `$ source activate`.
-- Run `$ cd ../src` to move to the folder where the Python scripts are located.
-- Run `$ python3 morel-generate.py` to generate the content from your Zotero collection. In some operating systems, the command might vary. Check the Python documentation for guidance-->
+
+- Run:  
+```
+python3 -m venv assets/env
+```
+to create the Python environment.
+
+- Run:  
+```
+pip install -r requirements.txt
+```
+to install the dependencies.
+- Run:  
+```
+python assets/src/morel-generate.py
+```
+to generate the content
 - Run:  
 ```
 $ ruby serve-local.rb
-```  
+```
 to activate the local server for browsing.
 - Open the browser and go to the link provided by the local server (usually it's http://127.0.0.1:4000).
 - Browse your custom site!
