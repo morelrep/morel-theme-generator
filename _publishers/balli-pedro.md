@@ -1,3 +1,0 @@
----
-title: Balli, Pedro
----

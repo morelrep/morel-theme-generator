@@ -1,3 +1,0 @@
----
-title: "Biblioteca Palafoxiana"
----
