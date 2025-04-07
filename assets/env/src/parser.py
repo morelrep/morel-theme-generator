@@ -4,17 +4,17 @@ import bibtexparser
 
 # === FILE PATHS ===
 INPUT_BIB = "assets/data/Primeros_Libros/Primeros_Libros.bib"
-REFERENCE_CSV = "assets/data/escape_characters.csv"
+REFERENCE_CSV = "assets/data/reference.csv"
 MAPPING_CSV = "assets/data/Full_CSV_BibTeX_Field_Comparison.csv"
 ESCAPE_CSV = "assets/data/escape_characters.csv"
 OUTPUT_CSV = "assets/data/output.csv"
 
-# === LOAD CSV FILES ===
+# === LOAD REQUIRED FILES ===
 reference_df = pd.read_csv(REFERENCE_CSV)
 field_mapping_df = pd.read_csv(MAPPING_CSV)
 escape_chars_df = pd.read_csv(ESCAPE_CSV)
 
-# === BUILD FIELD MAPPING (literal fields only) ===
+# === BUILD FIELD MAPPING (literal BibTeX fields only) ===
 field_mapping_df['Equivalent BibTeX Field'] = field_mapping_df['Equivalent BibTeX Field'].astype(str).str.strip()
 literal_mappings = field_mapping_df[
     field_mapping_df['Equivalent BibTeX Field'].apply(lambda x: x.islower() and x.isidentifier())
@@ -24,13 +24,13 @@ bibtex_to_csv_map = dict(zip(
     literal_mappings['CSV Column']
 ))
 
-# === SPECIAL FIELDS WITH HARD-CODED LOGIC ===
+# === DEFINE POSITIONAL FIELDS (hardcoded logic) ===
 instruction_based_fields = {
     "Key": lambda entry: entry.get("ID", ""),
     "Item Type": lambda entry: entry.get("ENTRYTYPE", "")
 }
 
-# === ESCAPE CHARACTER MAP (merged with additions) ===
+# === ESCAPE CHARACTER SUBSTITUTIONS ===
 escape_chars_df.dropna(inplace=True)
 escape_mapping = dict(zip(escape_chars_df["Escaped as"].str.strip(), escape_chars_df["Character"].str.strip()))
 
@@ -76,11 +76,11 @@ def unescape_latex(text):
     text = text.replace('{}', '')
     return clean_braces(text)
 
-# === LOAD BIBTEX FILE ===
+# === LOAD BIB FILE ===
 with open(INPUT_BIB, "r", encoding="utf-8") as bibfile:
     bib_database = bibtexparser.load(bibfile)
 
-# === MAP BIBTEX ENTRIES TO ZOTERO CSV ROWS ===
+# === CONVERT TO ZOTERO-STYLE ROWS ===
 csv_columns = reference_df.columns.tolist()
 
 def map_bibtex_to_csv(entry):
@@ -96,6 +96,6 @@ def map_bibtex_to_csv(entry):
 csv_rows = [map_bibtex_to_csv(entry) for entry in bib_database.entries]
 csv_df = pd.DataFrame(csv_rows)
 
-# === EXPORT TO CSV ===
+# === EXPORT CSV ===
 csv_df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8")
-print(f"✅ Done. Exported to {OUTPUT_CSV}")
+print(f"✅ Exported {len(csv_df)} rows to {OUTPUT_CSV}")
