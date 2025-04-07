@@ -1,0 +1,13 @@
+Character,Escaped as
+#,\#
+%,\%
+$,\$
+&,\&
+_,\_
+{,\{
+},\}
+~,“\~{}” or “\textasciitilde{}” (depends)
+^,“\^{}” or “\textasciicircum{}”
+\,“\textbackslash{}” or “\\” (depends)
+`,`
+‘<’ and ‘>’,sometimes left unescaped (not always reliable)
