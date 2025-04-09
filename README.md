@@ -20,12 +20,12 @@ $ cd morel-theme-generator
 to move to the repository folder.
 - Run:  
 ```
-$ bundle update
+bundle update
 ```
 to update the theme and its dependencies. If you don't have Ruby on your system, follow the instructions in [Jekyll](https://jekyllrb.com/docs/ruby-101/)
 - Run:  
 ```
-$ ruby serve-local.rb
+ruby serve-local.rb
 ```
 to launch the test site locally.
 
@@ -50,7 +50,7 @@ To fill it with your site's information, follow these steps:
 - The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`
 - Commit the changes and wait for the customized site to deploy. If you are using GitHub in the web browser, just wait the site to deploy. If you are working locally, push the changes to see them online, or test them locally with  
 ```
-$ ruby serve-local.rb
+ruby serve-local.rb
 ```
 
 ## Generating the content from Zotero 
@@ -73,12 +73,18 @@ to create the Python environment.
 
 - Run:  
 ```
+source assets/env/bin/activate
+```
+to activate the Python environment.
+
+- Run:  
+```
 pip install -r requirements.txt
 ```
 to install the dependencies.
 - Run:  
 ```
-python assets/src/morel-generate.py
+python assets/env/src/morel-generate.py
 ```
 to generate the content
 - Run:  
