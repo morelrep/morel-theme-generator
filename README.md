@@ -45,6 +45,7 @@ To fill it with your site's information, follow these steps:
   - `assets/img/tema/logo.png`
   - `assets/img/tema/avatar.jpg`
   - `assets/img/tema/trama.png`
+  - `assets/img/tema/add.jpg`
 - Open the `podcast.md` file and change the title and tagline of your podcast or blog.
 - The `_posts` folder has the MOREL posts. Delete the MOREL posts and create your own with [Jekyll nomenclature](https://jekyllrb.com/docs/posts/). If you don't want to add any podcast posts or episodes to your site, change in `_config.yml` the `podcast` value to `false`
 - Commit the changes and wait for the customized site to deploy. If you are using GitHub in the web browser, just wait the site to deploy. If you are working locally, push the changes to see them online, or test them locally with  
