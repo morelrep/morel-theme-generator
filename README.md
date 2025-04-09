@@ -89,7 +89,7 @@ python assets/env/src/morel-generate.py
 to generate the content
 - Run:  
 ```
-$ ruby serve-local.rb
+ruby serve-local.rb
 ```
 to activate the local server for browsing.
 - Open the browser and go to the link provided by the local server (usually it's http://127.0.0.1:4000).
