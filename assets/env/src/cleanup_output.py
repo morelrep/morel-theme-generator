@@ -22,7 +22,7 @@ def delete_generated_files():
         if os.path.exists(folder):
             for root, dirs, files in os.walk(folder):
                 for file in files:
-                    if file != ".keep":  # Keep .keep files
+                    if file not in [".keep", "escape_characters.csv", "Full_CSV_BibTeX_Field_Comparison.csv", "reference.csv", "chriterias.csv"]:  # Keep .keep files  # Keep .keep files
                         os.remove(os.path.join(root, file))
                         files_deleted = True
 
