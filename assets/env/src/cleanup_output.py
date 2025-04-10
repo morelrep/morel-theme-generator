@@ -15,7 +15,7 @@ FOLDERS_TO_CLEAN = [
 ZIP_FILE = os.path.join(BASE_DIR, "output.zip")
 
 def delete_generated_files():
-    """Deletes generated files but keeps .keep files. Only prints if files were actually deleted."""
+    """Deletes generated files but keeps .keep files and other necessary files. Only prints if files were actually deleted."""
     files_deleted = False
 
     for folder in FOLDERS_TO_CLEAN:
