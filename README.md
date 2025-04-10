@@ -84,9 +84,14 @@ pip install -r requirements.txt
 to install the dependencies.
 - Run:  
 ```
-python assets/env/src/morel-generate.py
+python3 assets/env/src/cleanup_output.py
 ```
-to generate the content
+to delete the sample content.
+- Run:  
+```
+python3 assets/env/src/morel-generate.py
+```
+to generate your content
 - Run:  
 ```
 ruby serve-local.rb
