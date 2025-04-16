@@ -1,0 +1,120 @@
+<p>MOREL generates web sites from bibliographic collections. The MOREL sites gather book covers, excerpts, bibliographic clues, metadata and digital downloads from works stored in the Zotero reference manager.</p>
+
+<!-- more -->
+
+<p>Works are organized by dynamic lists, which automatically group the works according to common characteristics:</p>
+
+<ul>
+  <li><a href="/criteria/author">authors</a></li>
+  <li><a href="/criteria/city">city of publication</a></li>
+  <li><a href="/criteria/publisher">imprint or publisher</a></li>
+  <li><a href="/criteria/nationality">nationality of authors</a></li>
+  <li><a href="/criteria/edition">edition date</a></li>
+  <li><a href="/criteria/repository">digital repository</a>.</li>
+</ul>
+
+<p>MOREL also has a <a href="/search">search engine</a> that allows you to find works directly.</p>
+
+<h1 id="installation-instructions">Installation Instructions</h1>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li>
+    <p><strong>Zotero</strong>: Install Zotero reference management software from the <a href="https://www.zotero.org/">official website</a> and create collections to organize your content.</p>
+  </li>
+  <li>
+    <p><strong>Python</strong>: Install Python programming language from the <a href="https://www.python.org/">official Python website</a> based on your operating system. Ensure you have Python version 3.x installed.</p>
+  </li>
+  <li>
+    <p><strong>Jekyll</strong>: Install Jekyll, a static site generator, using your preferred method:</p>
+    <ul>
+      <li>For macOS or Linux, open a terminal and run the following command:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>bundler jekyll
+</code></pre></div>        </div>
+      </li>
+      <li>For Windows, follow the installation guide provided on the <a href="https://jekyllrb.com/docs/installation/windows/">Jekyll website</a>.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="installation-steps">Installation Steps</h2>
+
+<ol>
+  <li>
+    <p><strong>Download the Web Site Generator</strong></p>
+
+    <ul>
+      <li>Visit the GitHub repository for the web site generator at <a href="https://github.com/example/repository">https://github.com/example/repository</a>.</li>
+      <li>Click on the “Download” button or clone the repository using the following command:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/example/repository.git
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Configure Jekyll</strong></p>
+
+    <ul>
+      <li>Open a terminal and navigate to the downloaded repository’s directory:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> /path/to/repository
+</code></pre></div>        </div>
+      </li>
+      <li>Install the necessary dependencies by running:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
+</code></pre></div>        </div>
+      </li>
+      <li>Customize the Jekyll configuration file (<code class="language-plaintext highlighter-rouge">_config.yml</code>) to match your preferences and set up necessary plugins or themes.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Run Python Scripts</strong></p>
+
+    <ul>
+      <li>Ensure that you have Python installed and accessible from the command line.</li>
+      <li>Navigate to the <code class="language-plaintext highlighter-rouge">scripts</code> directory within the downloaded repository:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> /path/to/repository/scripts
+</code></pre></div>        </div>
+      </li>
+      <li>Execute the Python script(s) provided in the repository to extract data from your Zotero collections. For example:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python extract_data.py
+</code></pre></div>        </div>
+      </li>
+      <li>Follow any prompts or instructions provided by the script(s).</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Generate the Website</strong></p>
+
+    <ul>
+      <li>Return to the main directory of the downloaded repository:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> /path/to/repository
+</code></pre></div>        </div>
+      </li>
+      <li>Build the website using Jekyll by running the following command:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll build
+</code></pre></div>        </div>
+      </li>
+      <li>Once the build process completes, the generated website will be available in the <code class="language-plaintext highlighter-rouge">_site</code> directory.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Deployment</strong></p>
+
+    <ul>
+      <li>Deploy the generated website to your desired web server or hosting platform by following their respective instructions.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="about-page-for-your-site">“About” page for your site</h2>
+
+<p>If you aren’t using MOREL yet, go to the <a href="#install">installation instructions</a> bellow. If you installed MOREL already, these are your last steps to have it ready to run:</p>
+
+<ul>
+  <li>Delete the file <code class="language-plaintext highlighter-rouge">_abouts/site-description.md</code></li>
+  <li>Edit <code class="language-plaintext highlighter-rouge">site-description_template</code>. Note that <code class="language-plaintext highlighter-rouge">site-description-template.md</code> has the current description for one of the sites built with MOREL: Afro-Latin American Writers in Translation (ALAWiT). Edit to your site’s needs. But that there are dynamic fields, such as “MOREL” and “0”. We recommend you to keep them in your edition, so your site description is automatically updated as your collection grows.</li>
+  <li>Rename the file to <code class="language-plaintext highlighter-rouge">site description.md</code></li>
+  <li>Run Jekyll build if you are using a local server, or wait for Github to deploy</li>
+</ul>
+

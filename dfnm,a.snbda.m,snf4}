@@ -1,0 +1,792 @@
+[33mcommit b10f5ef93300162e98ce990d847dc5c5aaf2823e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: b3a8b26 13f5981
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Sat Nov 9 15:57:37 2024 -0500
+
+    Merge branch 'main' of https://github.com/morelrep/morel-theme-generator
+
+[33mcommit 13f5981e2823694bd15b9cfe6617720c6fea0a3b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Fri Aug 16 18:45:08 2024 -0400
+
+    Update search.js
+    
+    trying '../' approach
+
+[33mcommit 165e46058494580f8642a799792f33669a364aa0[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:54:03 2024 -0400
+
+    Update _config.yml
+
+[33mcommit acedcdd38110282cf164798d1e970b5ce48207e0[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:53:22 2024 -0400
+
+    Update add.md
+    
+    changed link to jotform to dynamic reference to yml
+
+[33mcommit ec1234ad4df95436c2fdd96555fd614cec43d588[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:47:30 2024 -0400
+
+    Update search.js
+    
+    After herdcoding the no-results page, corrected the url to the English version
+
+[33mcommit b5902f59693935a37d3dad86bdd6393b4cbb5193[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:45:18 2024 -0400
+
+    Update search.js
+
+[33mcommit cc34436a4621e540dc6e2762152281be9e797b9d[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:40:48 2024 -0400
+
+    Update search.js
+    
+    Trying with an empty value after href
+
+[33mcommit 4056ac60f66a999983c740d0c243111b89c317b8[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:33:38 2024 -0400
+
+    Update search.js
+    
+    Applying a dynamic html for the no-results page.
+
+[33mcommit 8ee306f905b8446b03896de8970e0441de888fb0[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:26:41 2024 -0400
+
+    Update search.js
+    
+    Adding base path to no-result options too
+
+[33mcommit 1b2238a2947ace8350f72008772e6c2dc2155d50[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:15:47 2024 -0400
+
+    Update search.js
+    
+    Trying new solution for the search page
+
+[33mcommit d507e8a3223dc9cb6c29096addc6cefa62341505[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:03:28 2024 -0400
+
+    Update search.js
+
+[33mcommit 9485eaaa351dabd1cb7a52c5fb73e67a065f41fb[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 20:00:31 2024 -0400
+
+    Update search.js
+
+[33mcommit 3da1d1e6e0a9ddea835f841d4bce56f2f3296b9b[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 19:51:02 2024 -0400
+
+    Update search.js
+
+[33mcommit ff5095acb151abbd85ca4bbc34c59b9cafe2fc14[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 19:45:08 2024 -0400
+
+    Create search.js
+
+[33mcommit b3a8b26c3660772bbfb11be4fc20ea78531b0cc9[m
+Merge: 79d5de5 bfa51db
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Thu Jul 11 18:48:51 2024 -0400
+
+    Merge branch 'main' of https://github.com/morelrep/morel-theme-generator
+
+[33mcommit bfa51db9ed9d662369598ae245c894982c9f7e1f[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 18:46:41 2024 -0400
+
+    Update search.html
+
+[33mcommit fa9acb6a7daa1e947d6fc48349da1380baae7010[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 18:44:03 2024 -0400
+
+    Update search.html
+
+[33mcommit 694becc9bd0ab7732fdee5c609a956e950d44073[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 18:38:09 2024 -0400
+
+    Update site-description.html
+
+[33mcommit d9520ad1c43f01fbdc88c6be9d204d807ab61ca8[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 18:35:40 2024 -0400
+
+    Update site-description.html
+
+[33mcommit 08cec0ad7d8041648ebe4f7a373ccc87c594e120[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 18:33:22 2024 -0400
+
+    Update site-description.html
+
+[33mcommit 79d5de52023e93b651b036e27526b6cee069c1b3[m
+Merge: c7a95a7 8690b2d
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Thu Jul 11 18:28:23 2024 -0400
+
+    Merge branch 'main' of https://github.com/morelrep/morel-theme-generator
+
+[33mcommit 8690b2d1cb0251aa1903fc5e5e572ea0bbc5b689[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 18:19:01 2024 -0400
+
+    Update _config.yml
+
+[33mcommit 5c77b6c336e599172088bd0d48b0f5d2f6b63b3a[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 18:16:15 2024 -0400
+
+    Update _config.yml
+
+[33mcommit 48a8369b7202cbc71940ac7b9eff7ea8d9a98bc7[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Thu Jul 11 18:14:29 2024 -0400
+
+    Update _config.yml
+
+[33mcommit c7a95a7f5815b7171dd1436e5cc47bffdce6ea46[m
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Thu Jul 11 18:06:02 2024 -0400
+
+    prod environment
+
+[33mcommit fd3e854d316df76bee742db681d91dd77a4bfb95[m
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Tue May 21 19:56:08 2024 -0400
+
+    tested embeeded readme
+
+[33mcommit 723748894ca024266e1b435d16cab8a29ada9dcb[m
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Tue May 21 19:44:18 2024 -0400
+
+    added dynamically README.md to the about page
+
+[33mcommit 2532ade1e984372ce0fba3eefc451dc09ba7606c[m
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Tue May 21 17:19:35 2024 -0400
+
+    updated readme
+
+[33mcommit 90a409ba7c99a18ddb64e28f32340b59330ad405[m
+Merge: 547ffb8 1db0c60
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Mon May 20 18:25:09 2024 -0400
+
+    merging remote changes
+
+[33mcommit 547ffb82e45a5807113a7940dab99615cb6138f8[m
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Mon May 20 18:22:52 2024 -0400
+
+    setup prod
+
+[33mcommit 73a7db86e5f500a35f38438bf4760ddbde23ee4c[m
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Mon May 20 18:22:18 2024 -0400
+
+    updated config.yml, added folders, updated readme, added ruby scripts
+
+[33mcommit 1db0c6058e7f67c94c593443df34f495ef8f9036[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Tue May 7 19:04:18 2024 -0400
+
+    Update README.md
+
+[33mcommit ff84059ece6b0ac9a77933d162d04e625670cce5[m
+Merge: accc8d8 f07487c
+Author: Morel User <41707679+conpulsi0n@users.noreply.github.com>
+Date:   Tue May 7 14:40:12 2024 -0400
+
+    Merge pull request #5 from morelrep/1-finish-documentation
+    
+    1 finish documentation
+
+[33mcommit f07487c5507a12b2fb6b8d3b9a09b3f3b6ad6e0a[m[33m ([m[1;31morigin/1-finish-documentation[m[33m)[m
+Merge: e3af916 accc8d8
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Tue May 7 14:33:14 2024 -0400
+
+    Merge branch 'main' into 1-finish-documentation
+
+[33mcommit accc8d87a6e1784976e2e2aebf387ab15009a61f[m
+Merge: 7e0a318 cfb903d
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Tue May 7 13:09:00 2024 -0400
+
+    Merge branch 'main' of https://github.com/morelrep/morel-theme-generator
+
+[33mcommit 7e0a318ed97d06c83ba9e8052a0c6f8f75b575a7[m
+Author: Eduardo Febres <eduardofebresm@gmail.com>
+Date:   Tue May 7 13:06:28 2024 -0400
+
+    added 'tema' folder
+
+[33mcommit cfb903d3df2d7d6dc074aecbd89ef331be290b22[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Tue May 7 10:11:11 2024 -0400
+
+    Update README.md
+
+[33mcommit 462859f6690d6a69fe4e7dd287a379647fae7813[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Wed Mar 13 10:40:12 2024 -0400
+
+    Update README.md
+
+[33mcommit 561d814097223199a0c8d19356874a8c548a2c9f[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Wed Mar 13 10:31:31 2024 -0400
+
+    Update README.md
+
+[33mcommit d0467599ca2fc9665ff8f5c78b350f7c60efa0a2[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Tue Mar 12 10:51:03 2024 -0400
+
+    Update README.md
+
+[33mcommit de7e88e2a615b01a78b7ac1b24da4cd201607ae5[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Tue Mar 12 10:50:15 2024 -0400
+
+    Update README.md
+
+[33mcommit 3e255ca7a85cb80f9843ea83f471de2b1207200e[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Tue Mar 12 10:42:48 2024 -0400
+
+    Update README.md
+
+[33mcommit 9baad1e4792d186d73f8470909e64b3e81f6bf6c[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Tue Mar 12 10:42:27 2024 -0400
+
+    Update README.md
+
+[33mcommit fd8366e8517b31e871bf3c64843a4fc5b5fa8ae5[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Tue Mar 12 10:28:54 2024 -0400
+
+    Update README.md
+
+[33mcommit 416b08aa0eac0845ef3ca0dd0630000f8e5bfe8b[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Tue Mar 12 10:08:28 2024 -0400
+
+    Update README.md
+    
+    Add step to make site-description work dinamically
+
+[33mcommit 2819a40318bbb6e8412f83abb9510f23125900a5[m
+Merge: 5897e49 49d1a20
+Author: Morel User <41707679+conpulsi0n@users.noreply.github.com>
+Date:   Mon Mar 11 19:58:17 2024 -0400
+
+    Merge pull request #3 from morelrep/febr3s-patch-1
+    
+    Update README.md
+
+[33mcommit 49d1a20c0f2dc694efcdba640edc3dd3b7469e69[m[33m ([m[1;31morigin/febr3s-patch-1[m[33m)[m
+Merge: 5d043d1 5897e49
+Author: Morel User <41707679+conpulsi0n@users.noreply.github.com>
+Date:   Mon Mar 11 19:58:07 2024 -0400
+
+    Merge branch 'main' into febr3s-patch-1
+
+[33mcommit 5897e49e397fe4d162e7df80f94a1e88ac66f197[m
+Merge: 3644cfc cede8fd
+Author: Morel User <41707679+conpulsi0n@users.noreply.github.com>
+Date:   Mon Mar 11 19:54:09 2024 -0400
+
+    Merge pull request #4 from morelrep/febr3s-patch-2-1
+    
+    Update README.md
+
+[33mcommit cede8fd7c9a509f23c26d8cc065354d9b57af443[m[33m ([m[1;31morigin/febr3s-patch-2-1[m[33m)[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Mon Mar 11 19:40:19 2024 -0400
+
+    Update README.md
+    
+    Some needed changes
+
+[33mcommit 5d043d1e56d2c5a1271addc41b6a3e900e36cdfa[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Mon Mar 11 18:57:48 2024 -0400
+
+    Update README.md
+
+[33mcommit e3af916743a170248116b04efccd0703f8e39309[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Thu Jul 27 01:08:03 2023 -0500
+
+    switched to remote-theme
+
+[33mcommit 1559c454bb04bb8e9dcd45c6daa6a0ff235a7980[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Thu Jul 27 01:07:16 2023 -0500
+
+    added chriteras.csv to the _data folder. Apparently, it cannot load it from a remote theme, wehreas it can load it from the gem them
+
+[33mcommit 4f1d0b64660f0febd4bf65c9f14082f366fa1d28[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Thu Jul 27 00:52:21 2023 -0500
+
+    added test page
+
+[33mcommit 2a017f1bf1573c2b34c80019bb450aa8028119d3[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Thu Jul 27 00:47:28 2023 -0500
+
+    added test page
+
+[33mcommit a4316f08b0040632a8feb11698c6fc89715d31b8[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Thu Jul 27 00:28:29 2023 -0500
+
+    deleted duplicated page
+
+[33mcommit 444098ec2afa1ecfa06f19681b92508c7edd66b3[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Thu Jul 27 00:24:37 2023 -0500
+
+    one base_path was missing
+
+[33mcommit a84f5148848c52486961df8e7421e2a17af5a061[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Thu Jul 27 00:20:48 2023 -0500
+
+    trigger deploy
+
+[33mcommit 6b084f82fdc7ed0eeed6d5e36ae89b8abce160aa[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Thu Jul 27 00:19:40 2023 -0500
+
+    trigger deploy
+
+[33mcommit 24ffa16d7cd9314dc5dbdedfd6199f99e6d82828[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 26 22:42:26 2023 -0500
+
+    trigger deploy
+
+[33mcommit 12916fdb828ac9711404827eb39e10df802a9493[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 26 22:07:27 2023 -0500
+
+    trigger deploy
+
+[33mcommit e168b89aaeca62de11727d0e450d76f82fa3b3ba[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 26 20:23:11 2023 -0500
+
+    changed to main branch back to see if it works
+
+[33mcommit 6cf6df03b1320c62832fe59cd252dc4c288d62d6[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 26 20:17:14 2023 -0500
+
+    changed to 2-favicon branch to see if it works
+
+[33mcommit 84f8a943865ab3adce515daaeaab236e027e45bc[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 26 17:00:07 2023 -0500
+
+    fixed links on README.md  and linked to theme on main branch
+
+[33mcommit 697af9c20b37d88dcc85cc2ced8f3bdc538d30e1[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 26 16:50:50 2023 -0500
+
+    fixed links on README.md
+
+[33mcommit 609648e9f49057ad3a6453d17bd186ac18e4c832[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Mon Jul 24 18:08:12 2023 -0500
+
+    redirected remote theme to issue branch
+
+[33mcommit 8443ba262356e50ec78e50cffecb6c5e1263a264[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Mon Jul 24 18:07:00 2023 -0500
+
+    activated remote theme
+
+[33mcommit 4b202fe2d4175899d9867784d3f13502fbb16495[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Mon Jul 24 15:13:20 2023 -0500
+
+    fixed typo in README.md and added Hola World! post
+
+[33mcommit 5c697a485652abd12818c848d07fbe8420954335[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Mon Jul 24 13:32:27 2023 -0500
+
+    deleted env files
+
+[33mcommit 971a79970646f51e683d8db1fb3b22c32789d8eb[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Mon Jul 24 13:28:58 2023 -0500
+
+    switched to remote-theme
+
+[33mcommit 8adf7f456ecb7fa0114b5be77ee4fbddc8199362[m
+Merge: 108a904 1983131
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Mon Jul 24 13:26:25 2023 -0500
+
+    completing merge
+
+[33mcommit 108a90452f93e3d8a9f144eb60ea08713d51d8eb[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Mon Jul 24 11:30:41 2023 -0500
+
+    copied env to assets folder
+
+[33mcommit 19831315bbab601d79f5de8423014f166a7be411[m
+Author: Eduardo Febres <33102833+febr3s@users.noreply.github.com>
+Date:   Mon Jul 24 11:02:56 2023 -0500
+
+    Update _config.yml
+    
+    Minor change to trigger deployment after transfering morel-theme to MOREL
+
+[33mcommit ba0d06c2200891dbe509555b2223a71dd508cb7c[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Mon Jul 24 10:47:50 2023 -0500
+
+    switched to remote-theme
+
+[33mcommit 976927f9f34631291242b05b039cda8b48e681d4[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 14:48:22 2023 -0500
+
+    updated theme and tested locally
+
+[33mcommit 9c1b6c5a79831a9353aedfe50cc5ab256a66825a[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 14:41:02 2023 -0500
+
+    updated about page
+
+[33mcommit 52986a44a3cf20423bd7291fa9d7af48640ad07a[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 05:35:36 2023 -0500
+
+    update readme and about page
+
+[33mcommit b34c3bebb132d6ebdd740c928a67c848b602a1ae[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 04:55:58 2023 -0500
+
+    finished first version of README, moved unused files
+
+[33mcommit 3e9cd20b00ae2f7b661a53add7ea29207f0bbeba[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 04:29:02 2023 -0500
+
+    added licence
+
+[33mcommit 42e50405ab69ec8e928682a67d8e58d98cb1a1ce[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 04:22:06 2023 -0500
+
+    copied instructions to site-description.md and updated them
+
+[33mcommit 3644cfccbe08911ca19c9d5e6257728602ec3dd7[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 01:17:07 2023 -0500
+
+    minor change to trigger deploy with updated morel-theme
+
+[33mcommit 237d0ce53f1385737ea01fdc2d02063e5b53e1d7[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 01:08:02 2023 -0500
+
+    referenced theme in main branch
+
+[33mcommit 69660cfe1928c03420140b825896f79a5675296e[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 01:03:26 2023 -0500
+
+    deleted _data.yml remaining from the tests with scripts
+
+[33mcommit 7d36d1212518508e5ee7eff2cc7790694080c08d[m[33m ([m[1;31morigin/base-path[m[33m)[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 00:57:49 2023 -0500
+
+    update readme
+
+[33mcommit 300462bd168826dbd13590af6362ead96ea4e5ef[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 00:52:23 2023 -0500
+
+    update readme
+
+[33mcommit d6e27943440f569b546d7a2ed0c804c1ea3c1d4b[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sun Jul 23 00:44:03 2023 -0500
+
+    added ruby scripts for workaround
+
+[33mcommit 7590aad6ae61b1a59e52deb9ff6ba4536e48c8da[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 22 19:29:04 2023 -0500
+
+    introducidas variaciones para correrlo en local
+
+[33mcommit 42b899491d1cc265ca63e21a04b7ac9e39805c97[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 21 11:56:05 2023 -0500
+
+    minor change to trigger deploy with updated morel-theme
+
+[33mcommit a263d8db3dbfb99e20971d9b488eeb7039b7c8bd[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 21 11:42:47 2023 -0500
+
+    worked locally with the --config flag
+
+[33mcommit 094bdc3119cac0c540f928ccc299e1091c11c70a[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 21 11:01:49 2023 -0500
+
+    dummy change to start deployment after pushing base-path branch from morel-theme
+
+[33mcommit 2f4e1bbd30ea486cee1c0a36f86bdb27ac31fbea[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 21 10:55:15 2023 -0500
+
+    pointed remote theme to specific branch
+
+[33mcommit ef90c87433715750b849f36632c41863b25e4b44[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 21 10:47:26 2023 -0500
+
+    updated theme
+
+[33mcommit d7961edd493dd4570fa4f1192c60a45e060f26df[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 21 10:38:04 2023 -0500
+
+    added base_path to config.yml
+
+[33mcommit 10fb5dec786a97431b0c73285fb04b584e081607[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 21 10:35:06 2023 -0500
+
+    switched to remote-theme
+
+[33mcommit ae307901e4124562b740aa6a0527fd3c7fdd9c7b[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 21 10:33:18 2023 -0500
+
+    updated theme and worked locally
+
+[33mcommit 65a952848224985aa9c378b5280b4b9942ae7240[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 21 10:14:38 2023 -0500
+
+    changed base-path
+
+[33mcommit 4b7a759298f36359cf9a16c20ff7f74d82fa1f5e[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Thu Jul 20 02:40:28 2023 -0500
+
+    tweaking around to figure out the BASE_PATH rule. See log for findings. Should have used a different branch
+
+[33mcommit 8a4ed06a3b8f8c8965009e93e71ca0167f671537[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 22:20:29 2023 -0500
+
+    more modifications to readme and switch to remote
+
+[33mcommit 85adfe2cc4b911faba8b2932941d328f6eba9a25[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 18:40:44 2023 -0500
+
+    updated and translated readme
+
+[33mcommit a9359d0af49f6d7f5638ffc11b460f2798ff0741[m[33m ([m[1;31morigin/set-gemfile[m[33m)[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:59:04 2023 -0500
+
+    switched to remote-theme
+
+[33mcommit 4cf4716ca3a8aba9750fd85a5a041cd2515998e6[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:58:32 2023 -0500
+
+    ran bundle update and worked locally
+
+[33mcommit 02381d5938a609c1171d5c257143c71dd6f37f2a[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:45:51 2023 -0500
+
+    ran bundle install
+
+[33mcommit 87cf47b1d04d10a7ef9506eca2d544fc44cdaebf[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:42:49 2023 -0500
+
+    switched to remote-theme
+
+[33mcommit d318d87dbe77725df5df3c07f855367ad495c9fd[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:42:15 2023 -0500
+
+    specified versions in gemfile for everything except morel-theme
+
+[33mcommit fe0b0f26ec515830af5b7737687612b05ca7194a[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:35:13 2023 -0500
+
+    uncommented everything back and switched the theme line in configyml
+
+[33mcommit e8c7b3939559b547362a9f3c990055d83191c083[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:33:46 2023 -0500
+
+    commented bacj the parser line
+
+[33mcommit aa595aa3daa136df910b6e96efefbe8d8ce443f4[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:32:38 2023 -0500
+
+    commented back the performance booster line
+
+[33mcommit 1d0c7e03ea1769ebf8bf98ec7a1672e9681babb7[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:31:11 2023 -0500
+
+    commented back the zoneinfo gems
+
+[33mcommit 4b78fd105e7b3ad36377b88739d847228a9805e2[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Wed Jul 19 09:25:54 2023 -0500
+
+    uncommented some lines in gemfile to make it compatible with jruby and windows
+
+[33mcommit bf5e4e1d56691189e7a0f1ddbe4250363d21a5f4[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Tue Jul 18 17:11:39 2023 -0500
+
+    readme updated with switching themes for dev an prod
+
+[33mcommit b731eda80ecde841316020d63f3132b1d4eac2eb[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Tue Jul 18 17:00:18 2023 -0500
+
+    apparently solved
+
+[33mcommit b2d678e4eb021ecd861634cdc2948ea2bcdd5567[m[33m ([m[1;31morigin/local-config[m[33m)[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Tue Jul 18 16:45:52 2023 -0500
+
+    bundled with jekyll gem, which was apparently the one that always worked anyway
+
+[33mcommit 5aaef8d9feafcf04163db510fd126994c422a43d[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Tue Jul 18 10:46:13 2023 -0500
+
+    Readme updated in Spanish
+
+[33mcommit 7101678361069a6d73ce0cd5446649670881cd0f[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:58:10 2023 -0500
+
+    fixed syntax on config file for remote theme
+
+[33mcommit 5e90c66e4e0afb94ce4f34d96d93227782c9ae50[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:48:39 2023 -0500
+
+    deleted env
+
+[33mcommit 4fb6bc640568c6e222e57c54117385cb6304916e[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:46:13 2023 -0500
+
+    commented out windows gems and parser gem
+
+[33mcommit 4989424ff2177f175141af8ee71a31e65ea41c9c[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:44:45 2023 -0500
+
+    ...and added github-pages
+
+[33mcommit 826e3b1e8b61fed295a1d9f77b02046727de8fa3[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:44:33 2023 -0500
+
+    ...and added github-pages
+
+[33mcommit 75367f963f82bd475387f129824003dd2a4dedaf[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:43:32 2023 -0500
+
+    commented out morel-theme
+
+[33mcommit 655e975e2e2da515eb0189c8e4106a20e363f13d[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:42:17 2023 -0500
+
+    switched to remote-theme
+
+[33mcommit 75c3b4c56b87d9532834709a3462c5c341a70ba4[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:41:47 2023 -0500
+
+    switched jekyll for github-pages on gemfile and worked locally
+
+[33mcommit 94d69c1184965520e66a68db671dff9f9321ede0[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:35:35 2023 -0500
+
+    deleted gemfile.lock and reinstalled all gems
+
+[33mcommit 8da9a805be8a55ba0b794913d702baa0c7760364[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:33:37 2023 -0500
+
+    modified config and gemfile to make remote-theme work
+
+[33mcommit cae5da5ea7df7b082023405211d659a9b15e5d92[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:30:39 2023 -0500
+
+    added remote theme plugin
+
+[33mcommit dc5cc5f1e4993ae838fed51cc4efb3087fad0299[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:24:54 2023 -0500
+
+    activated remote theme
+
+[33mcommit a1e481878543424f53bc3d7293edbf2d30c0fe12[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Sat Jul 15 12:21:04 2023 -0500
+
+    readme added, theme updated, remote-theme option added on config
+
+[33mcommit 27218a3207c5273aeffaa9f32323486ade7760be[m
+Author: febr3s <eduardofebresm@gmail.com>
+Date:   Fri Jul 14 16:28:47 2023 -0500
+
+    before updating theme

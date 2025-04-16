@@ -1,0 +1,82 @@
+title: MOREL # Write here the name of your site
+tagline: Mobile Open Resilient Electronic Libraries # Write here the description of your site
+img: logo.png # Substitute the file with a copy of your site's logo on /assets/img/tema
+background: trama.png # Substitute the file with a copy of your site's pattern on /assets/img/tema
+image : avatar.png
+email : proyectomorel@gmail.com
+github : 
+twitter : 
+instagram:
+# theme: morel-theme
+
+template : 
+  name : MOREL
+  site: https://morel.la
+  image : avatar.png
+  email : proyectomorel@gmail.com
+  github : 
+  twitter : 
+  instagram:
+
+# Do not edit bellow unless you are an advanced user
+
+plugins:
+  - jekyll-seo-tag
+
+permalink: /:categories/:year/:month/:day/:title:output_ext 
+
+excerpt_separator: "<!-- more -->"
+
+collections:
+  cities:
+    output: true
+    permalink: /cities/:name
+  books:
+    output: true
+    permalink: /books/:name
+  authors:
+    output: true
+    permalink: /authors/:name
+  publishers:
+    output: true
+    permalink: /publishers/:name
+  repositories:
+    output: true
+    permalink: /repositories/:name
+  chriterias:
+    output: true
+    permalink: /chriteria/:name
+  abouts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book"
+  - scope:
+      path: ""
+      type: "cities"
+    values:
+      layout: "city"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "publishers"
+    values:
+      layout: "publisher"
+  - scope:
+      path: ""
+      type: "repositories"
+    values:
+      layout: "repository"

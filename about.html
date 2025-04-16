@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MOREL | MOREL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>MOREL</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="MOREL" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="MOREL" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="MOREL" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"MOREL","url":"/about.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body style="background: url('/assets/img/tema/pattern.png');">
+    <script>0</script>
+    <!--Nav Bar-->
+    <nav class="navBar">
+        <nav class="wrapper">
+            <div class="logo" >
+                <a href="/index.html"><img src="/assets/img/tema/logo.png" alt="MOREL" class="logo-img"></a>
+
+            </div>
+
+
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="label-toggle"></label>
+            <ul>
+                <li><a href="/search"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                <li><a href="/add"><i class="fa fa-plus-circle" aria-hidden="true"></i></a></li>
+                <li><a href="/about"><i class="fa fa-question" aria-hidden="true"></i></a></li>
+                
+            </ul>
+        </nav>
+    </nav>
+        
+        <div class="main-container post-container">
+ <!--Obra del día-->
+    <div class="obra-dia">
+    <div class="post-cover" style="">
+      <div class="ficha-title">
+        <h1>
+          MOREL
+        </h1>
+      </div> 
+    </div>
+    <div class="workarround">
+      
+    </div>
+    <div class="ficha-container sombra-solida blog" style="">
+      <div class="ficha-extract">
+        
+        <div class="blog-post">
+                  <p>MOREL generates web sites from bibliographic collections. The MOREL sites gather book covers, excerpts, bibliographic clues, metadata and digital downloads from items stored in the Zotero reference manager.</p>
+
+<!-- more -->
+
+<p>Works are organized by dynamic lists, which automatically group the works according to common characteristics:</p>
+
+<ul>
+  <li><a href="/morel-theme-generator/criteria/author">authors</a></li>
+  <li><a href="/morel-theme-generator/chriteria/city">city of publication</a></li>
+  <li><a href="/morel-theme-generator/chriteria/publisher">imprint or publisher</a></li>
+  <li><a href="/morel-theme-generator/chriteria/nationality">nationality of authors</a></li>
+  <li><a href="/morel-theme-generator/chriteria/edition">edition date</a></li>
+  <li><a href="/morel-theme-generator/criteria/repository">digital repository</a>.</li>
+</ul>
+
+<p>MOREL also has a <a href="/morel-theme-generator/search">search engine</a> that allows you to find works directly.</p>
+
+                  <h1 id="instructions-to-install-the-theme">Instructions to install the theme</h1>
+
+<h2 id="install">Install</h2>
+
+<!-- ### Remote (using your web browser)-->
+
+<h3 id="local-using-command-line">Local (using command line)</h3>
+
+<ul>
+  <li><strong>Fork the repository</strong> — that is, create a copy in your <a href="https://github.com">GitHub</a> account.</li>
+  <li>Open your system’s terminal in the folder on your local computer where you will be working on the site. Mac and Linux have native terminals. For Windows, use <a href="https://learn.microsoft.com/en-us/windows/wsl/install">WSL (Windows Subsystem for Linux)</a>.</li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone https://github.com/[your_username]/morel-theme-generator
+</code></pre></div>    </div>
+    <p>to clone the repository.</p>
+  </li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd morel-theme-generator
+</code></pre></div>    </div>
+    <p>to move to the repository folder.</p>
+  </li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle update
+</code></pre></div>    </div>
+    <p>to update the theme and its dependencies. If you don’t have Ruby on your system, follow the instructions in <a href="https://jekyllrb.com/docs/ruby-101/">Jekyll</a></p>
+  </li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby serve-local.rb
+</code></pre></div>    </div>
+    <p>to launch the test site locally.</p>
+  </li>
+</ul>
+
+<h2 id="configure">Customize</h2>
+
+<p>You now have a ready-made site <em>with sample content from the MOREL site Afro Latin American Writers in Translation (<a href="https://alawit.org">ALAWiT</a>)</em>.</p>
+
+<p>To fill it with your site’s information, follow these steps:</p>
+
+<ul>
+  <li>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> and change:
+    <ul>
+      <li>The <code class="language-plaintext highlighter-rouge">title</code> to your site’s.</li>
+      <li>The <code class="language-plaintext highlighter-rouge">tagline</code> to your site’s.</li>
+      <li>The <code class="language-plaintext highlighter-rouge">email</code> and/or social media accounts to your site’s.</li>
+      <li>The <code class="language-plaintext highlighter-rouge">jotform</code> link (create your free account at https://www.jotform.com/).</li>
+    </ul>
+  </li>
+  <li>Open the file <code class="language-plaintext highlighter-rouge">_about/site-description.md</code> and write a description for your site. The <code class="language-plaintext highlighter-rouge">&lt;!-- more --&gt;</code> line separates what appears in the footer across all pages from the longer description that appears on the <code class="language-plaintext highlighter-rouge">about</code> page only. For this to work you have to complete the final step of this section.</li>
+  <li>Replace the logo, pattern and avatar files by adding a file to:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">assets/img/tema/logo.png</code></li>
+      <li><code class="language-plaintext highlighter-rouge">assets/img/tema/avatar.jpg</code></li>
+      <li><code class="language-plaintext highlighter-rouge">assets/img/tema/trama.png</code></li>
+      <li><code class="language-plaintext highlighter-rouge">assets/img/tema/add.jpg</code></li>
+    </ul>
+  </li>
+  <li>Open the <code class="language-plaintext highlighter-rouge">podcast.md</code> file and change the title and tagline of your podcast or blog.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">_posts</code> folder has the MOREL posts. Delete the MOREL posts and create your own with <a href="https://jekyllrb.com/docs/posts/">Jekyll nomenclature</a>. If you don’t want to add any podcast posts or episodes to your site, change in <code class="language-plaintext highlighter-rouge">_config.yml</code> the <code class="language-plaintext highlighter-rouge">podcast</code> value to <code class="language-plaintext highlighter-rouge">false</code></li>
+  <li>Commit the changes and wait for the customized site to deploy. If you are using GitHub in the web browser, just wait the site to deploy. If you are working locally, push the changes to see them online, or test them locally with
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby serve-local.rb
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="generating-the-content-from-zotero">Generating the content from Zotero</h2>
+
+<!--### Remote (using your web browser)-->
+
+<h3 id="local-using-command-line-1">Local (using command line)</h3>
+
+<ul>
+  <li>
+    <p>Open <a href="https://www.zotero.org/">Zotero</a> and review the <a href="#zotero-fields">guide</a> at the end of this instructions to make the fields 100 % readable for MOREL.</p>
+  </li>
+  <li>
+    <p>Export your Zotero collection as a <code class="language-plaintext highlighter-rouge">.csv</code> file. If you don’t know how to do it follow the instructions <a href="https://www.zotero.org/support/kb/exporting">here</a>.</p>
+  </li>
+  <li>
+    <p>Name your <code class="language-plaintext highlighter-rouge">.csv</code> file <code class="language-plaintext highlighter-rouge">books_zotero.csv</code> and place it inside the <code class="language-plaintext highlighter-rouge">assets/data</code> folder.</p>
+  </li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 -m venv assets/env
+</code></pre></div>    </div>
+    <p>to create the Python environment.</p>
+  </li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source assets/env/bin/activate
+</code></pre></div>    </div>
+    <p>to activate the Python environment.</p>
+  </li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install -r requirements.txt
+</code></pre></div>    </div>
+    <p>to install the dependencies.</p>
+  </li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 assets/env/src/cleanup_output.py
+</code></pre></div>    </div>
+    <p>to delete the sample content.</p>
+  </li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 assets/env/src/morel-generate.py
+</code></pre></div>    </div>
+    <p>to generate your content</p>
+  </li>
+  <li>Run:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby serve-local.rb
+</code></pre></div>    </div>
+    <p>to activate the local server for browsing.</p>
+  </li>
+  <li>Open the browser and go to the link provided by the local server (usually it’s http://127.0.0.1:4000).</li>
+  <li>Browse your custom site!</li>
+</ul>
+
+<h2 id="zotero-fields">Zotero Fields</h2>
+
+<p>MOREL items are added in the same way that items are added in any <a href="https://www.zotero.org/support/adding_items_to_zotero">Zotero library</a>. In its current version, MOREL can only process items of type <code class="language-plaintext highlighter-rouge">book</code>. Since not all the fields needed for MOREL are available for the <code class="language-plaintext highlighter-rouge">book</code> content type, some considerations must be made:</p>
+
+<ul>
+  <li>Excerpt: the fragment from each MOREL record corresponds to the <code class="language-plaintext highlighter-rouge">notes</code> of Zotero (see the <a href="https://www.zotero.org/support/notes">documentation</a> about Zotero notes). In its current version, MOREL <em>only accepts one excerpt per book</em>.</li>
+  <li>Cover: the cover is a jpg file that is added as an <code class="language-plaintext highlighter-rouge">attachment</code> to the Zotero item (see the Zotero attachments <a href="https://www.zotero.org/support/attaching_files">documentation</a>).</li>
+</ul>
+
+
+        </div>
+      </div>
+      
+      <div class="ficha-metadata">      
+      </div>
+      
+      
+    </div>
+   
+                
+  </div>
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,7 @@
+title,img,layout,filename
+author,tema/autora.jpg,page-chriteria,author
+city,tema/lugar.jpg,page-chriteria,city
+edition year,tema/edicion.jpg,busquedas,edition
+imprint or publisher,tema/imprenta.jpg,page-chriteria,publisher
+repository,tema/repositorio.jpg,page-chriteria,repository
+nacionality,tema/pais.jpg,busquedas,nationality
