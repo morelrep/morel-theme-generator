@@ -1,6 +1,0 @@
----
-title: "Sólo acero"
-key: "CBQTEPIH"
-author: Pedroso, Regino
----
-<div data-schema-version="8"><p>Mark era un negro jamaiquino que en la gran guerra había estado en Europa defendiendo la libertad y la civilización del mundo bajo la bandera de Inglaterra. De ella, por los efectos de las granadas y los gases, trajo lesionado un pulmón y una sordera cada vez más dormida, que los médicos no sabían cómo curar Y ahora siendo ya inútil para su patria, había venido a Cuba, y aquí trabajaba unas veces como mecánico y otras veces como electricista. Todos lo queríamos mucho. Era inteligente y bondadoso, nos contaba bellos relatos negros de Jamaica y cosas endiabladas de las trincheras.</p> </div>

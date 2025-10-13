@@ -1,6 +1,0 @@
----
-title: "Iconografía"
-key: "DXREIGPK"
-author: Hernández, Gaspar Octavio
----
-<div data-schema-version="8"><p>Malas pinceladas, contornos mal diseñados, demasía de sombra o demasía de luz, veréis en los lienzos de esta paupérrima icnonografía; mas veréis también, que esos defectos de técnica, esas violentas incorrecciones pictóricas, hijos son de la vehemencia con que obró la mano, febril de loco entusiasmo o de intensa amargura.</p> <p>En medios como el nuestro --,donde los que --llevados de persistente necesidad interior-- se dedican a la cultura de la belleza, teniendo a la vez, que consumir grandes caudales de energía en labores de suyo antiliterarias; en medios como el nuestro --donde el público --sobre todo el público que a sí mismo se llama letrado-- deja morir de inanición diarios y revistas en el sórdido y frío muladar de la general indiferencia; en medios como este, digo, no se puede laborar con detenimiento, en el bosquejo de un cuadro; en la reproducción de un retrato; en el pulimiento de un mármol. </p> </div>

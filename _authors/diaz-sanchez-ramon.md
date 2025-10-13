@@ -1,3 +1,0 @@
----
-title: Díaz Sánchez, Ramón
----

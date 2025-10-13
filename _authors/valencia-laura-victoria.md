@@ -1,3 +1,0 @@
----
-title: Valencia, Laura Victoria
----

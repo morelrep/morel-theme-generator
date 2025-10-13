@@ -1,3 +1,0 @@
----
-title: Alvarez y comp.
----

@@ -1,3 +1,0 @@
----
-title: Monet, Aja
----

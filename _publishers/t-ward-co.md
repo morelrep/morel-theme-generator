@@ -1,3 +1,0 @@
----
-title: T. Ward & Co.
----

@@ -1,3 +1,0 @@
----
-title: Robinson Abrahams, Hazel
----

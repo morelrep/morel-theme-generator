@@ -1,6 +1,0 @@
----
-title: "Tres relatos del Caribe costarricense (en inglés)"
-key: "VY6NRBN9"
-author: Joseph Montout, Dolores
----
-<div data-schema-version="8"><p>Jenny Wilkins boarded the bus at the first stop of Corales No. 1, Jenny Wilkings, a very loquacious old soul, very positive in her remarks, loud, very loud in speaking. Her head tied with a bright red hand-kerchief, as a neighbor a virago, always ready to voice her opinion, with interjections of strong adjectives.</p> <p>“Wat guine an Miss Manda”. She greeted Amanda, her friend.</p> <p>“Nat a ting. Guaing to town fi see wat me can by. Nat a ting in dese dam shaps in Corales”.</p> <p>“Youh no knaw. Dem people up here only open shap, and noting in the shap dem. Youh go fi buy rice, No hay, Sugar,<br>No hay, Sweet ail. No hay, Nat eben camman salt. As fi cigaret... Dont bather ask... Dem just fi close down the blasted pleace... A person run out a enyting, hab fi jump pan de bus, fi go to town... An de bus so frigging slow... Corales is one hell ob a pleace... “, concluded Amanda.</p> </div>

@@ -1,3 +1,0 @@
----
-title: «Cuti», Luiz Silva
----

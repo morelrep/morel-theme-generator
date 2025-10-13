@@ -1,6 +1,0 @@
----
-title: "Juyungo"
-key: "CVHTD2HG"
-author: Ortiz, Adalberto
----
-<div data-schema-version="8"><p>Don Valerio Verduga Barberán pasóse los dedos a modo de peinilla por entre los desgreñados cabellos sin brillo, y se lo puso que era un mosquitero de fina gasa la llovizna que caía aquella mañana sobre la aldea de Santo Domingo de los Colorados. Dejó correr la vista por encima de los techos pajizos que, frente a su casa de cinc, chorreaban lacios cual pelambreras cholas, y recordó que los gallinazos graves, estaban como diciendo: “mañana hago mi casa, mañana hago mi casa”.</p> <p>Hasta los tímpanos llegaba el estero rumoroso de cristalino caudal, culebreante entre las malezas, de donde mujeres desaliñadas y agenciosasm acarreaban agua en sendos calabazos, mientras niños y adolescentes verdosos como la pulpa de las papayas tiernas, jugaban a los cocos y a las bolas de cristal, debajo de las casuchas que escasamente rodeaban la desmantelada plaza, alfombrada de montes y hierbajos; rasgada en su trémulo y húmedo verdor mojado, por las heridas diagonales de los senderitos familiares.</p> </div>

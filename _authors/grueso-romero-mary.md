@@ -1,3 +1,0 @@
----
-title: Grueso Romero, Mary
----

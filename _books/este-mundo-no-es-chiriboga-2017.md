@@ -1,6 +1,0 @@
----
-title: "Este mundo no es de las feas: cuentos"
-key: "8VIFCHWD"
-author: Chiriboga, Luz Argentina
----
-<div data-schema-version="8"><p>Al subir, lo primero que notó fue que algunos pasajeros tenían el cabello húmedo y olían a jabón barato, como si recién hubieran salidos de bañarse; otros lucían sus uniformes de trabajo; y los rostros de todos delataban nerviosismo por llegar puntuales a sus empleos. El pasajero que iba a su lado leía el diario, concentrado en una nota que hacía referencia al atentado de las torres en Nueva York. Erema frunció el entrecejo. A diferencia de los días anteriores, necesitaba llegar puntual a la oficina, debía estar lista para recibir al representante del circo y adquirir boletos para los empleados de su sección. Vestía un terno estilo sastre color café, cuya falda le daba a los tobillos, y zapatos de tacones bajos de cuero de culebra, que parecían del tiempo de la abuela. Era su forma de vestir. No advertía que la moda había cambiado y lucía más edad de la que tenía, sus veintiocho parecían treinta y ocho.</p> </div>

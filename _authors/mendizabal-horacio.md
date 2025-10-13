@@ -1,3 +1,0 @@
----
-title: Mendizábal, Horacio
----

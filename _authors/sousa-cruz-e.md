@@ -1,3 +1,0 @@
----
-title: Sousa, Cruz e
----

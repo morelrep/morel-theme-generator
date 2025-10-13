@@ -1,6 +1,0 @@
----
-title: "Cuando los guayacanes florecían"
-key: "5LYC395R"
-author: Estupiñán Bass, Nelson
----
-<div data-schema-version="8"><p>En una esquina del dormitorio, con la cabeza entre las manos, sentado al borde de su cama de madera, y retardado en el arreglo de su equipo, Gabriel Simbaña, indio metido a soldado de línea por el afán de salir de su aldea de la Sierra y no vivir la vida miserable de los otros, lloraba desconsoladamente. Recordaba que se había enrolado en el ejército, porque no quiso seguir la suerte de su padre, envejecido en la hacienda, casi desnudo y sin alcanzar a pagar jamás la cuenta al patrón. Recordaba el dolor que había sentido, --ah, cómo iba a poder olvidarlo!,-- cuando había visto que el látigo inclemente del patrón abría surcos de sangre en la espalda agobiada del viejo, aquel día que el mayordomo descubrió que su padre se había hurtado un saco de maíz. Fue en ese invierno duro y penoso, en que el hambre parecía haberse puesto de acuerdo con el patrón para hacer más amarga la vida de los indios. Recordaba ese loco anhelo de venir a la Costa, de vivir en una &nbsp;tierra distante, a donde no pudiera llegar el látigo ensangrentado del patrón.</p> </div>

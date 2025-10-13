@@ -1,3 +1,0 @@
----
-title: Duque Palacios, Sayly
----

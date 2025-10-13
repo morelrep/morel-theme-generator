@@ -1,3 +1,0 @@
----
-title: Truque Vélez, Colombia
----

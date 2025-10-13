@@ -1,3 +1,0 @@
----
-title: Rodríguez Cabral, Cristina
----

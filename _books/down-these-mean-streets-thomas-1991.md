@@ -1,6 +1,0 @@
----
-title: "Down these mean streets"
-key: "EUFB8EDN"
-author: Thomas, Piri
----
-<div data-schema-version="8"><p>The Pennsylvanian smiled. “Oh, I’m not looking for that kind of personal involvement,” he said. “I’m not seeking violence but rather the warmth and harmony of the southern Negro, their wonderful capacity for laughter and strength, their spiritual closeness to God and their way of expressing faith through their gospel singing. I want to capture on paper the richness of their poverty and their belief in living. I want the words I write to blend with emotions of their really fantastic ability to endure and absorb the anguish of past memories of the slavery that was the lot of their grandparents. I want to write that despite their burdens they are working with the white man toward a productive relationship.”</p> <p>I glanced at Brew. He was studying the shadows on the walls. I took a good look at the Pennsylvanian. He was tan-colored and not really very negroid-looking. I got a funny, almost proud feeling that I looked more negroid than he did.</p> </div>

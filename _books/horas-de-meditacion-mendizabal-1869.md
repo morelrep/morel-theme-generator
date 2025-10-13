@@ -1,6 +1,0 @@
----
-title: "Horas de meditación"
-key: "R4S7GF4B"
-author: Mendizábal, Horacio
----
-<div data-schema-version="8"><p>Estos versos son las íntimas sensaciones de mis instantes de dolor y melancolía ó mis débiles cantos de esperanza en el porvenir: algún grito de entusiasmo arrancado del amor á la libertad, un eco perdido que responde al movimiento de la revolución política y social que empieza á con­ mover las naciones de uno y otro continente.</p> <p>Al lamentar los funestos errores de la sociedad en que vivimos, para la que constituye un crimen nuestro color, al medir la separación de una y otra clase, el infortunio de la una y el orgullo de la otra, yo abandonaba esta atmósfera de corrupción, yendo á respirar el aire perfumado de nues­ tros campos floridos.</p> </div>

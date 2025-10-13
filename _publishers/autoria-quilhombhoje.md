@@ -1,3 +1,0 @@
----
-title: Autoria Quilhombhoje
----

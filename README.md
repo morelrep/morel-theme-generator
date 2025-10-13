@@ -6,7 +6,7 @@
 
 ### Local (using command line) 
 
-- **Fork the repository** — that is, create a copy in your [GitHub](https://github.com) account.
+- **Fork the repository** — that is, [create a copy](https://github.com/morelrep/morel-theme-generator/fork) in your [GitHub](https://github.com) account.
 - Open your system's terminal in the folder on your local computer where you will be working on the site. Mac and Linux have native terminals. For Windows, use [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install).
 - Run:  
 ```

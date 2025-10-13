@@ -1,3 +1,0 @@
----
-title: Panchano, Lucrecia
----

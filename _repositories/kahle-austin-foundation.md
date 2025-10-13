@@ -1,3 +1,0 @@
----
-title: "Kahle/Austin Foundation"
----

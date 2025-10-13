@@ -1,3 +1,0 @@
----
-title: Corpus Stephens, Briceña
----

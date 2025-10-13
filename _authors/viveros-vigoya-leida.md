@@ -1,3 +1,0 @@
----
-title: Viveros Vigoya, Leida
----
