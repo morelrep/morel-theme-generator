@@ -8,7 +8,7 @@ MOREL generates web sites from bibliographic collections. The MOREL sites gather
 
 Works are organized by dynamic lists, which automatically group the works according to common characteristics:
 
-- [authors]({{site.BASE_PATH}}/criteria/author)
+- [authors]({{site.BASE_PATH}}/chriteria/author)
 - [city of publication]({{site.BASE_PATH}}/chriteria/city)
 - [imprint or publisher]({{site.BASE_PATH}}/chriteria/publisher)
 - [nationality of authors]({{site.BASE_PATH}}/chriteria/nationality)
