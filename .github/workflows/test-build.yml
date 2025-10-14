@@ -1,8 +1,9 @@
+name: Deploy Jekyll to GitHub Pages
+
 on:
   push:
     branches: 
       - test-gh-actions
-
 # Sets permissions for GITHUB_TOKEN to allow deployment to Pages
 permissions:
   contents: read
